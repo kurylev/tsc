@@ -1,0 +1,368 @@
+@font-face {
+    font-family: HelveticaNeueCyrRoman;
+    src: url(../fonts/helveticaneuecyr-roman-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-roman-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-roman-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-roman-webfont.ttf) format('truetype'),
+         url(../fonts/helveticaneuecyr-roman-webfont.svg#HelveticaNeueCyrRoman) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: HelveticaNeueCyrLight;
+    src: url(../fonts/helveticaneuecyr-light-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-light-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-light-webfont.ttf) format('truetype'),
+         url(../fonts/helveticaneuecyr-light-webfont.svg#HelveticaNeueCyrLight) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNeueCyrThin';
+    src: url(../fonts/helveticaneuecyr-thin-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-thin-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-thin-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-thin-webfont.ttf) format('truetype'),
+         url(../fonts/helveticaneuecyr-thin-webfont.svg#HelveticaNeueCyrThin) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url(../fonts/myriadpro-regular_-webfont.eot);
+    src: url(../fonts/myriadpro-regular_-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/myriadpro-regular_-webfont.woff) format('woff'),
+         url(../fonts/myriadpro-regular_-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*_____COMMON_____________________________________________________________________________________________*/
+
+html, body{
+	height:100%;
+}
+body{
+	margin:0;
+	padding:0;
+}
+#main{
+	width:100%;
+	margin: 0 0 -230px;
+}
+a {
+	text-decoration: none !important;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration: underline;
+	color:#ccc;
+}
+h1{
+	color:#fff;
+	font:2.25em HelveticaNeueCyrLight;
+}
+
+/*_____HEADER___________________________________________________________________________________________________*/
+
+#header {
+	overflow:hidden;
+	width:100%;
+	height:110px;
+	background-color:fff;
+}
+.logo {
+	float:left;
+	margin: 12px 0 0 20px;
+	width:234px;
+	height:90px;
+	background: url(../img/logo.svg) no-repeat;
+}
+#nav {
+	float:left;
+	margin: 35px 0 0 92px;
+}
+.menu {
+	padding:0 6px 0 0;
+}
+.menu li {
+	float:left;
+	margin:0 11px;
+	position:relative;
+	list-style-type:none;
+}
+.menu a {
+	display:block;
+	margin:0;
+	color:#555;
+	text-decoration:none;
+	font:0.95em HelveticaNeueCyrThin;
+}
+.menu li:hover > a{
+	color:#0581D2;
+}
+.position {
+	position:absolute;
+	margin-top:14px;
+	padding:0;
+}
+
+/*_____PROEKTY____________________________________________________________________________________________________*/
+
+#proekty {
+	width:100%;
+	height:570px;
+	/*background: #b4cce2;  Для старых браузров */ 
+    background: -moz-linear-gradient(bottom left, #b4cce2, #daeaf7); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left bottom, right top, 
+                color-stop(100%,#b4cce2), color-stop(100%,#cadfef));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(bottom left,  #b4cce2, #daeaf7);
+    background: -o-linear-gradient(bottom left, #b4cce2, #daeaf7); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom left, #b4cce2, #daeaf7); /* IE10 */
+    background: linear-gradient(bottom left, #b4cce2, #daeaf7); /* CSS3 */ 
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4cce2', 
+            endColorstr='#daeaf7',GradientType=1);
+}
+.first{
+	height:570px;
+}
+#proekty {
+	position:relative;
+	padding:0;
+}
+#plashka {
+	position:absolute;
+	margin:-455px 0 0 205px;
+}
+.cifry li {
+	margin:-5px 0;
+	position:relative;
+	list-style-type:none;
+}
+.cifry a {
+	margin:0;
+	color:#000;
+	text-decoration:none;
+	font:0.75em HelveticaNeueCyrRoman;
+}
+#text {
+	position:absolute;
+	margin:-461px 0 0 355px;
+	color:#fff;
+	font:2.2em HelveticaNeueCyrThin;
+}
+#inside {
+	position:absolute;
+	margin:-278px 0 0 620px;
+	color:#fff;
+	font:1em HelveticaNeueCyrThin;
+}
+#krug {
+	color:#fff;
+	font:1em MyriadProRegular;
+	position:absolute;
+	text-align:center;
+	margin: -478px 0 0 833px;
+}
+
+/*_____TEHNO____________________________________________________________________________________________________*/
+
+#tehno {
+	position:relative;
+	width:100%;
+	height:615px;
+	
+	background: -moz-linear-gradient(bottom left, #027ed0, #32b5f7); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left bottom, right top, 
+                color-stop(100%,#027ed0), color-stop(100%,#32b5f7));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(bottom left,  #027ed0, #32b5f7);
+    background: -o-linear-gradient(bottom left, #027ed0, #32b5f7); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom left, #027ed0, #32b5f7); /* IE10 */
+    background: linear-gradient(bottom left, #027ed0, #32b5f7); /* CSS3 */ 
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027ed0', 
+            endColorstr='#32b5f7',GradientType=1);
+}
+.logo_w{
+	float:left;
+	margin: 85px 0 0 98px;
+	width:91px;
+	height:78px;
+	background: url(../img/logo_w.svg) no-repeat;
+	
+}
+.radio {
+	float:left;
+	margin: 95px 0 0 12px;
+}
+.radio_text{
+	position:absolute;
+	margin: 160px 0 0 203px;
+	color:#fff;
+	font:0.9em HelveticaNeueCyrRoman;
+}
+#marketing>.radio_text{
+	margin-top:0;
+}
+.logo2{
+	margin: 310px 0 0 -470px;
+}
+.radio2 {
+	margin: 320px 0 0 -365px;
+}
+.radio_text2{
+	margin: 385px 0 0 203px;
+}
+
+.vverh{
+	position:absolute;
+	margin: 579px 0 0 1040px;
+	padding:0;
+	width:5px;
+}
+
+/*_____MARKETING____________________________________________________________________________________________________*/
+
+#marketing {
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:615px;
+	
+	background: -moz-linear-gradient(bottom left, #099cfe, #6ec1f7); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left bottom, right top, 
+                color-stop(100%,#099cfe), color-stop(100%,#6ec1f7));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(bottom left,  #099cfe, #6ec1f7);
+    background: -o-linear-gradient(bottom left, #099cfe, #6ec1f7); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom left, #099cfe, #6ec1f7); /* IE10 */
+    background: linear-gradient(bottom left, #099cfe, #6ec1f7); /* CSS3 */ 
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#099cfe', 
+            endColorstr='#6ec1f7',GradientType=1);
+}
+#marketing >.radio, #komanda >.radio{
+	margin-left:201px;
+	float:none;
+	margin-bottom:23px;
+}
+#marketing >.vverh{
+	margin-top:420px; 
+}
+
+/*_____KOMANDA____________________________________________________________________________________________________*/
+
+#komanda {
+	position:relative;
+	padding:1px;
+	overflow:hidden;
+	width:100%;
+	height:712px;
+	
+	background: -moz-linear-gradient(bottom left, #027ed0, #32b5f7); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left bottom, right top, 
+                color-stop(100%,#027ed0), color-stop(100%,#32b5f7));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(bottom left,  #027ed0, #32b5f7);
+    background: -o-linear-gradient(bottom left, #027ed0, #32b5f7); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom left, #027ed0, #32b5f7); /* IE10 */
+    background: linear-gradient(bottom left, #027ed0, #32b5f7); /* CSS3 */ 
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027ed0', 
+            endColorstr='#32b5f7',GradientType=1);
+}
+.name {
+	color:#fff;
+	font:1.6em HelveticaNeueCyrThin;
+	margin: 0 0 0 201px;
+}
+.post {
+	color:#fff;
+	font:1.2em HelveticaNeueCyrThin;
+	margin:0 0 24px 201px;
+}
+.vakansii {
+	position:absolute;
+	color:#fff;
+	font:0.7em HelveticaNeueCyrLight;
+	line-height:1.7em;
+	margin:23px 0 0 800px;
+}
+.kontakt {
+	margin-left:712px;
+	margin-top:100px;
+}
+.pavel {
+	margin-left:503px;
+	margin-top:10px;
+}
+#ofis {
+	position:absolute;
+	color:#fff;
+	font:0.55em HelveticaNeueCyrLight;
+	margin:53px 0 0 570px;
+}
+
+/*_____FOOTER____________________________________________________________________________________________________*/
+
+#footer {
+	width:100%;
+	height:50px;
+	margin: 166px 0 0 0;
+}
+#gray {
+	width:100%;
+	height:50px;
+	background-color:#333;
+}
+#black {
+	padding:1px;
+	width:100%;
+	height:24px;
+	background-color:#000;
+	margin: -28px 0 0 200px;
+}
+#black>div {
+	color:#fff;
+	font:0.55em HelveticaNeueCyrLight;
+	margin: 7px 0 0 30px;
+}
+
+
+.top a{
+	color:#fff;
+	font:1em HelveticaNeueCyrThin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

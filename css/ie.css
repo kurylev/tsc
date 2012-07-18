@@ -1,0 +1,14 @@
+.logo {
+	margin: 12px 0 0 20px;
+	width:234px;
+	height:90px;
+	background: url(../img/logo.png) no-repeat;
+}
+.logo_w {
+	background: url(../img/logo_w.png) no-repeat;
+}
+#nav {
+	float:left;
+	margin: 35px 0 0 92px;
+	
+}
