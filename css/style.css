@@ -71,7 +71,7 @@ h1{
 	overflow:hidden;
 	width:100%;
 	height:110px;
-	background-color:fff;
+	background-color:#fff;
 }
 .logo {
 	float:left;
@@ -235,18 +235,18 @@ h1{
 	overflow:hidden;
 	width:100%;
 	height:615px;
-	
+
 	background: -moz-linear-gradient(bottom left, #099cfe, #6ec1f7); /* Firefox 3.6+ */
     /* Chrome 1-9, Safari 4-5 */
-    background: -webkit-gradient(linear, left bottom, right top, 
+    background: -webkit-gradient(linear, left bottom, right top,
                 color-stop(100%,#099cfe), color-stop(100%,#6ec1f7));
     /* Chrome 10+, Safari 5.1+ */
     background: -webkit-linear-gradient(bottom left,  #099cfe, #6ec1f7);
     background: -o-linear-gradient(bottom left, #099cfe, #6ec1f7); /* Opera 11.10+ */
     background: -ms-linear-gradient(bottom left, #099cfe, #6ec1f7); /* IE10 */
-    background: linear-gradient(bottom left, #099cfe, #6ec1f7); /* CSS3 */ 
+    background: linear-gradient(bottom left, #099cfe, #6ec1f7); /* CSS3 */
 	
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#099cfe', 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#099cfe',
             endColorstr='#6ec1f7',GradientType=1);
 }
 #marketing >.radio, #komanda >.radio{
@@ -255,7 +255,7 @@ h1{
 	margin-bottom:23px;
 }
 #marketing >.vverh{
-	margin-top:420px; 
+	margin-top:420px;
 }
 
 /*_____KOMANDA____________________________________________________________________________________________________*/
