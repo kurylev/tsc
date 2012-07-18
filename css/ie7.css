@@ -9,5 +9,26 @@
 }
 #nav {
 	float:left;
-	margin: 50px 0 0 92px;
+	margin: 50px 0 0 51px;
+}
+#plashka{
+	margin:-430px 0 0 205px;
+}
+#krug {
+	margin: -468px 0 0 833px;
+}
+.radio_text{
+	margin: 160px 0 0 -365px;
+}
+.radio_text2{
+	margin: 385px 0 0 -365px;
+}
+#marketing>.radio_text{
+	margin: 0 0 0 205px;
+}
+#footer {
+	width:100%;
+	height:50px;
+	margin: 179px 0 0 0;
+	position:absolute;
 }
