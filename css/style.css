@@ -114,16 +114,16 @@ h1{
 #proekty {
 	width:100%;
 	height:570px;
-	/*background: #b4cce2;  Для старых браузров */ 
+	/*background: #b4cce2;  Для старых браузров */
     background: -moz-linear-gradient(bottom left, #b4cce2, #daeaf7); /* Firefox 3.6+ */
     /* Chrome 1-9, Safari 4-5 */
-    background: -webkit-gradient(linear, left bottom, right top, 
+    background: -webkit-gradient(linear, left bottom, right top,
                 color-stop(100%,#b4cce2), color-stop(100%,#cadfef));
     /* Chrome 10+, Safari 5.1+ */
     background: -webkit-linear-gradient(bottom left,  #b4cce2, #daeaf7);
     background: -o-linear-gradient(bottom left, #b4cce2, #daeaf7); /* Opera 11.10+ */
     background: -ms-linear-gradient(bottom left, #b4cce2, #daeaf7); /* IE10 */
-    background: linear-gradient(bottom left, #b4cce2, #daeaf7); /* CSS3 */ 
+    background: linear-gradient(bottom left, #b4cce2, #daeaf7); /* CSS3 */
 	
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4cce2', 
             endColorstr='#daeaf7',GradientType=1);
