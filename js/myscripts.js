@@ -1,10 +1,21 @@
-﻿(function($) {
-$(function() {
+﻿jQuery(document).ready(function() {
 
-  $('#bot').click(function() {
-    $('body,html').animate({scrollBottom:-10},500);
-    return false;
-  })
+$("#m").click(function(){
+    //Необходимо прокрутить в конец страницы
+    var curPos = $(document).scrollTop();
+    var height = $("body").height();
+    var scrollTime = (height-curPos)/1.73;
+    $("body,html").animate({"scrollTop":'1294'},800);
+});
 
-})
-})(jQuery)
+});
+
+/* //Обработка нажатия на кнопку "Вверх"
+$("#up").click(function(){
+//Необходимо прокрутить в начало страницы
+var curPos=$(document).scrollTop();
+var scrollTime=curPos/1.73;
+$("body,html").animate({"scrollTop":0},scrollTime);
+}); */
+
+
