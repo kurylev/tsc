@@ -48,10 +48,6 @@ body{
 	margin:0;
 	padding:0;
 }
-/* #main{
-	width:100%;
-	margin: 0 0 -230px;
-} */
 a {
 	text-decoration: none !important;
 	cursor:pointer;
@@ -113,6 +109,10 @@ h1{
 	text-decoration:none;
 	font:0.95em HelveticaNeueCyrThin;
 }
+#p:hover {
+	color:#555;
+	cursor:default;
+}
 .menu li:hover > a{
 	color:#0581D2;
 }
@@ -121,6 +121,7 @@ h1{
 	margin-top:14px;
 	padding:0;
 }
+
 
 /*_____PROEKTY____________________________________________________________________________________________________*/
 
@@ -140,6 +141,9 @@ h1{
 	
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4cce2', 
             endColorstr='#daeaf7',GradientType=1);
+}
+.shtuka {
+	position:relative;
 }
 .first{
 	height:570px;
@@ -182,11 +186,17 @@ h1{
 	text-align:center;
 	margin: -478px 0 0 833px;
 }
+.two {
+	position:absolute;
+	margin-top:-290px;
+	margin-left:1050px;
+}
 
 /*_____TEHNO____________________________________________________________________________________________________*/
 
 #tehno {
 	position:relative;
+	overflow:hidden;
 	width:100%;
 	height:615px;
 	
@@ -234,11 +244,15 @@ h1{
 	margin: 385px 0 0 203px;
 }
 
-.vverh{
+/* .vverh{
 	position:absolute;
 	margin: 579px 0 0 1040px;
 	padding:0;
 	width:5px;
+} */
+#tehno  .top_m {
+	margin-top:95px;
+	margin-left:700px;
 }
 
 /*_____MARKETING____________________________________________________________________________________________________*/
@@ -270,9 +284,12 @@ h1{
 #marketing >.vverh{
 	margin-top:420px;
 }
-#top_m {
-	margin-top:435px;
-	margin-left:208px;
+.top_m {
+	position:absolute;
+	margin-top:-65px;
+	margin-left:505px;
+	color:#a2daf4;
+	font:0.7em HelveticaNeueCyrThin;
 }
 
 
@@ -328,6 +345,9 @@ h1{
 	color:#fff;
 	font:0.55em HelveticaNeueCyrLight;
 	margin:53px 0 0 570px;
+}
+#komanda  .top_m {
+	margin-top:-403px;
 }
 
 /*_____FOOTER____________________________________________________________________________________________________*/
