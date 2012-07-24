@@ -45,7 +45,12 @@ $("body,html").animate({"scrollTop":0},500);
 //СЛАЙДЕР______________________________________//
 
 
-var S_CONTENT_BLOCK_LEFT_POZ = 0; // левый отс. блока content
+var CONTENT_BLOCK_LEFT_POZ = 0; // левый отс. блока content
+//СЛАЙДЕР______________________________________//
+
+
+var CONTENT_BLOCK_LEFT_POZ = 0; // левый отс. блока content
+
 var START_X; //x-позиция мыши при наведении на блок content
 var PIC_WIDTH = 570; // ширина картинки
 var MAX_PIC; //общее кол-во картинок в блоке
