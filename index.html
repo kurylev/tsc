@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-<!-- Временный комментарий -->
 	<meta charset="utf-8">
 	<title>ТСS</title>
 	<!-- <link type="text/css" href="css/reset_.css" rel="stylesheet" media="all" /> -->
@@ -15,16 +14,18 @@
 	<!--[if (IE 6)|(IE 7)]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
 </head>
 <body>
+<div id="container">
+
 	<div id="header">
 		<div class="position"><a id="top"></a></div>
 		<div class="logo"></div>
 		<div id="nav">
 			<ul class="menu">
-				<li><a href="#pro">проекты</a></li>
-				<li><a href="#teh">технология</a></li>
+				<li><a href="#">проекты</a></li>
+				<li id="t"><a href="#">технология</a></li>
 				<li id="m"><a href="#">маркетинг</a></li>
-				<li><a href="#">команда</a></li>
-				<li><a href="#">контакты</a></li>
+				<li id="k"><a href="#">команда</a></li>
+				<li id="c"><a href="#">контакты</a></li>
 			</ul>
 		</div>
 	</div>
@@ -56,7 +57,6 @@
 		<div id="krug">inside<br>Texas instruments<br>multicore<br>TMS320C6674<br>chip</div>
 	</div>
 	<div id="tehno">
-		<div class="position"><a id="teh"></a></div>
 		<div class="logo_w"></div>
 		<h1 class="radio">Software Defined Radio</h1>
 		<div class="radio_text"> технология построения устройств радиосвязи с 
@@ -85,8 +85,10 @@
 				Радиолокационные станции, комплексы постановки <br>радиопомех, комплексы радиомониторинга и пеленгации<br>
 				Цифровое телевидение и радио<br>Считыватели радиочастотной идентификации<br>
 				Обучающие платформы для образовательных учреждений <br>Беспроводная связь</div>
+				<div id="top_m"><a><img class="top" src="img/top.png" /></a></div>
 	</div>
 	<div id="komanda">
+
 		<h1 class="radio">Команда</h1>
 		<div class="name">Александр Кондратьев </div>
 		<div class="post">Руководитель проекта, менеджер продукта</div>
@@ -97,13 +99,17 @@
 		<div class="vakansii">Вакансия<br>DSP программист</div>
 		<div class="name kontakt">контакты</div>
 		<div class="vakansii pavel">Павел Беляков<br>FPGA дизайнер</div>
-		<div id="ofis">ВСТРЕТИТЬСЯ В ОФИСЕ &nbsp; &nbsp; НАПИСАТЬ ИЛИ ПОЗВОНИТЬ</div>
+		<div id="ofis">ВСТРЕТИТЬСЯ В ОФИСЕ &nbsp; &nbsp; НАПИСАТЬ ИЛИ ПОЗВОНИТЬ</div>	
 		
 		<div id="footer">
 			<div id="gray"></div>
 			<div id="black"><div>Tactical Communications System, 2012</div></div>
 		</div>
+
 	</div>
+
+</div>		
+
 	
 </body>
 </html>

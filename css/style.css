@@ -41,17 +41,17 @@
 
 /*_____COMMON_____________________________________________________________________________________________*/
 
-html, body{
+html, body,  #container{
 	height:100%;
 }
 body{
 	margin:0;
 	padding:0;
 }
-#main{
+/* #main{
 	width:100%;
 	margin: 0 0 -230px;
-}
+} */
 a {
 	text-decoration: none !important;
 	cursor:pointer;
@@ -64,6 +64,19 @@ h1{
 	color:#fff;
 	font:2.25em HelveticaNeueCyrLight;
 }
+/* #wrap {
+	height:100%;
+	padding: 0 0 56px 0;
+	
+} */
+/* #main{
+	min-height:100%;
+	margin: 0 0 -30px 0;
+}
+#all{
+	overflow:hidden;
+	padding:0 0 30px 0;
+} */
 
 /*_____HEADER___________________________________________________________________________________________________*/
 
@@ -257,6 +270,11 @@ h1{
 #marketing >.vverh{
 	margin-top:420px;
 }
+#top_m {
+	margin-top:435px;
+	margin-left:208px;
+}
+
 
 /*_____KOMANDA____________________________________________________________________________________________________*/
 
@@ -265,7 +283,7 @@ h1{
 	padding:1px;
 	overflow:hidden;
 	width:100%;
-	height:712px;
+	height:100%;
 	
 	background: -moz-linear-gradient(bottom left, #027ed0, #32b5f7); /* Firefox 3.6+ */
     /* Chrome 1-9, Safari 4-5 */
@@ -315,9 +333,11 @@ h1{
 /*_____FOOTER____________________________________________________________________________________________________*/
 
 #footer {
+	position:absolute;
+	left:0; bottom:0;
 	width:100%;
 	height:55px;
-	margin: 165px 0 0 0;
+	/* margin: 165px 0 0 0; */
 }
 #gray {
 	width:100%;
