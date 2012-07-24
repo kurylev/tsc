@@ -43,8 +43,7 @@ $("body,html").animate({"scrollTop":0},500);
 });
 
 //СЛАЙДЕР______________________________________//
-
-var CONTENT_BLOCK_LEFT_POZ = 1;
+//СЛАЙДЕР______________________________________//
 var CONTENT_BLOCK_LEFT_POZ = 0; // левый отс. блока content
 var START_X; //x-позиция мыши при наведении на блок content
 var PIC_WIDTH = 570; // ширина картинки
