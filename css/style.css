@@ -41,7 +41,7 @@
 
 /*_____COMMON_____________________________________________________________________________________________*/
 
-html, body,  #container{
+html, body{
 	height:100%;
 }
 body{
@@ -173,12 +173,6 @@ h1{
 	color:#fff;
 	font:2.2em HelveticaNeueCyrThin;
 }
-#inside {
-	position:absolute;
-	margin:-278px 0 0 620px;
-	color:#fff;
-	font:1em HelveticaNeueCyrThin;
-}
 #krug {
 	color:#fff;
 	font:1em MyriadProRegular;
@@ -219,7 +213,7 @@ h1{
 }
 .logo_w{
 	float:left;
-	margin: 85px 0 0 102px;
+	margin: 60px 0 0 102px;
 	width:91px;
 	height:78px;
 	background: url(../img/logo_w.svg) no-repeat;
@@ -227,11 +221,11 @@ h1{
 }
 .radio {
 	float:left;
-	margin: 95px 0 0 8px;
+	margin: 70px 0 0 8px;
 }
 .radio_text{
 	position:absolute;
-	margin: 160px 0 0 203px;
+	margin: 125px 0 0 203px;
 	color:#fff;
 	font:0.9em HelveticaNeueCyrRoman;
 }
@@ -239,13 +233,13 @@ h1{
 	margin-top:0;
 }
 .logo2{
-	margin: 310px 0 0 -470px;
+	margin: 275px 0 0 -470px;
 }
 .radio2 {
-	margin: 320px 0 0 -365px;
+	margin: 285px 0 0 -365px;
 }
 .radio_text2{
-	margin: 385px 0 0 203px;
+	margin: 345px 0 0 203px;
 }
 
 /* .vverh{
@@ -255,8 +249,14 @@ h1{
 	width:5px;
 } */
 #tehno  .top_m {
-	margin-top:95px;
-	margin-left:700px;
+	position:absolute;
+	margin-top:570px;
+	margin-left:810px;
+}
+#tehno  .down_m {
+	position:absolute;
+	margin-top:20px;
+	margin-left:801px;
 }
 
 /*_____MARKETING____________________________________________________________________________________________________*/
@@ -283,18 +283,28 @@ h1{
 #marketing >.radio, #komanda >.radio{
 	margin-left:201px;
 	float:none;
-	margin-bottom:23px;
+	margin-bottom:13px;
 }
 #marketing >.vverh{
 	margin-top:420px;
 }
-.top_m {
+#marketing .top_m {
 	position:absolute;
-	margin-top:-65px;
+	margin-top:445px;
+	margin-left:810px;
+}
+#marketing .down_m {
+	position:absolute;
+	margin-top:-105px;
+	margin-left:801px;
+}
+/* .down_m {
+	position:absolute;
+	margin-top:200px;
 	margin-left:505px;
 	color:#a2daf4;
 	font:0.7em HelveticaNeueCyrThin;
-}
+} */
 
 
 /*_____KOMANDA____________________________________________________________________________________________________*/
@@ -351,7 +361,14 @@ h1{
 	margin:53px 0 0 570px;
 }
 #komanda  .top_m {
-	margin-top:-403px;
+	position:absolute;
+	margin-top:70px;
+	margin-left:810px;
+}
+#komanda .down_m {
+	position:absolute;
+	margin-top:-440px;
+	margin-left:801px;
 }
 
 /*_____FOOTER____________________________________________________________________________________________________*/

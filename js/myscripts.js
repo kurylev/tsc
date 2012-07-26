@@ -42,6 +42,15 @@ var scrollTime=curPos/1.73;
 $("body,html").animate({"scrollTop":0},500);
 });
 
+//Обработка нажатия на кнопку "Вниз"
+$(".down_m").click(function(){
+//Необходимо прокрутить в начало страницы
+var curPos=$(document).scrollTop();
+var scrollTime=curPos/1.73;
+var docheight = $(document).height();
+$("body,html").animate({"scrollTop":docheight},500);
+});
+
 //СЛАЙДЕР______________________________________//
 
 var CONTENT_BLOCK_LEFT_POZ = 0; // левый отс. блока content
@@ -60,19 +69,6 @@ $("#mycarousel").width(m);
 $( "#button_left" ).css('left',function(){
  if (CONTENT_BLOCK_LEFT_POZ == 0){$("#button_left").hide()};
 }); */
-
-
-// Показываем картинки
-$("#mycarousel").slideDown(800,function() {
- $(".first").fadeTo(0, 0.5); 
-});
-
-// Смена изображения при наведении
-$(".first").hover(function() {
-		$(this).fadeTo(1, 1);
-}, function() {
-	$(this).fadeTo(1, 0.5);	
-}); 
 
 // Прокрутка вправо
 $( "#button_left" ).click(function(){ 
