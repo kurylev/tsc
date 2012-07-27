@@ -9,12 +9,12 @@
 	<script src="js/jquery-1.7.min.js" type="text/javascript"></script>
 <!-- 	<script src="js/jquery-ui-1.8.17.custom.min.js" type="text/javascript"></script> -->
 	<script src="js/myscripts.js" type="text/javascript"></script>
+	<script src="js/jquery-ui-1.8.17.custom.min.js" type="text/javascript"></script>
 	
 	<!--[if (lte IE 9) & !(IE 7)]><link rel="stylesheet" href="css/ie.css" /><![endif]-->	
 	<!--[if (IE 6)|(IE 7)]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
 </head>
 <body>
-<div id="container">
 
 	<div id="header">
 		<div class="position"><a id="top"></a></div>
@@ -29,9 +29,17 @@
 			</ul>
 		</div>
 	</div>
+<div id="all">	
 	<div id="proekty">
-		<div class="shtuka"><img class="first" src="img/shtuka.png" /></div>
+	
+		<div id="wrap2">
+			<div id="sht1"><img class="first" src="img/shtuka.png" /></div>
+			<div id="sht2"><img class="two_img" src="img/shtuka2.png" /></div>
+			<div id="sht3"><img class="three_img" src="img/shtuka3.png" /></div>
+		</div>
+		
 		<div id="strelka"><a href="#"><img class="two" src="img/strelka.png" /></a></div>
+		
 		<div id="plashka">
 			<ul class="cifry">
 				<li><a href="#">802.22</a></li>
@@ -54,8 +62,7 @@
 		</div>
 		<div id="text">Программно-аппаратная<br>платформа для построения<br> 
 				беспроводных средств связи<br>на базе технологии SDR</div>
-		<div id="inside">INSIDE</div>
-		<div id="krug">inside<br>Texas instruments<br>multicore<br>TMS320C6674<br>chip</div>
+				<div id="krug">inside<br>Texas instruments<br>multicore<br>TMS320C6674<br>chip</div>
 	</div>
 	<div id="tehno">
 		<div class="logo_w"></div>
@@ -70,16 +77,18 @@
 		</div>
 		<div class="logo_w logo2"></div>
 		<h1 class="radio radio2">Cognitive Radio</h1>
-		<div class="radio_text radio_text2"> технология построения устройств радиосвязи с программируемыми параметрами<br> 
-				системы, которая включает в себя широкий круг методов проектирования, позволяющих сформировать <br>
-				по-настоящему гибкую систему связи. Проще говоря, это система радиосвязи, в которой компоненты, <br>
-				обычно  реализованные в оборудовании на аппаратном уровне (например, фильтры, модуляторы / демодуляторы, <br>
-				детекторы), в случае с SDR — выполнены на программном уровне. И хотя концепция SDR не является новой, <br>
-				быстро развивающиеся возможности цифровой элементной базы оказали серьезное практическое влияние <br>
-				на многие процессы в проектировании оборудования такого класса, которые раньше были лишь<br>
-				теоретически возможны.
+		<div class="radio_text radio_text2"> передовая технология на пути к более рациональному использованию радиочастотного спектра.<br>Особенностью когнитивного радио является способность получать и передавать сигналы на различных частотах, <br>в зависимости от загруженности частотного спектра. В целом, это «интеллектуальное» радио, <br>
+				которое проводит анализ электромагнитной среды и находит для передачи временно или постоянно <br>
+				не используемые частоты, в зависимости от региона, что позволяет увеличивать количество передаваемой <br>
+				на каждой данной частоте информации. <br>
+				В полной мере, все преимущества этой технологии воплотил новый стандарт 802.22.<br><br>
+				В 2007 году когнитивное радио заняло четвертое место в бюллетене Technology Review, <br>
+				издаваемом Массачусетским технологическим институтом, опубликованого перечня десяти перспективных <br>
+				технологий, которые могут оказать наибольшее влияние на <br>человеческое общество.
 		</div>
-				<div class="top_m"><a>вверх<br><img class="top" src="img/top.png" /></a></div>
+				
+				<div class="down_m"><a><img class="down" src="img/down.svg" /></a></div>
+				<div class="top_m"><a><img class="top" src="img/up.svg" /></a></div>
 	</div>
 	<div id="marketing">
 		<h1 class="radio">Маркетинг</h1>
@@ -87,9 +96,12 @@
 				Радиолокационные станции, комплексы постановки <br>радиопомех, комплексы радиомониторинга и пеленгации<br>
 				Цифровое телевидение и радио<br>Считыватели радиочастотной идентификации<br>
 				Обучающие платформы для образовательных учреждений <br>Беспроводная связь</div>
-				<div class="top_m"><a>вверх<br><img class="top" src="img/top.png" /></a></div>
+				
+				<div class="down_m"><a><img class="down" src="img/down.svg" /></a></div>
+				<div class="top_m"><a><img class="top" src="img/up.svg" /></a></div>
 	</div>
 	<div id="komanda">
+		<div class="logo_w star"></div>
 		<h1 class="radio">Команда</h1>
 		<div class="name">Александр Кондратьев </div>
 		<div class="post">Руководитель проекта, менеджер продукта</div>
@@ -97,21 +109,29 @@
 		<div class="post">Архитектор алгоритмов цифровой обработки сигналов, DSP программист</div>
 		<div class="name">Ярослав Шишов</div>
 		<div class="post">Системный архитектор беспроводных средств связи, инженер-схемотехник</div>
-		<div class="vakansii">Вакансия<br>DSP программист</div>
-		<div class="name kontakt">контакты</div>
-		<div class="vakansii pavel">Павел Беляков<br>FPGA дизайнер</div>
-		<div id="ofis">ВСТРЕТИТЬСЯ В ОФИСЕ &nbsp; &nbsp; НАПИСАТЬ ИЛИ ПОЗВОНИТЬ</div>
+		<div class="name">Павел Беляков</div>
+		<div class="post">Инженер-разрабочик алгоритмов ЦОС, FPGA дизайнер</div>
+		<div class="name">Иван Елкин</div>
+		<div class="post end">Инженер-схемотехник, конструктор</div>
 		
-		<div class="top_m"><a>вверх<br><img class="top" src="img/top.png" /></a></div>	
+		
+		
+		<div class="down_m"><a><img class="down" src="img/down.svg" /></a></div>
+		<div class="top_m"><a><img class="top" src="img/up.svg" /></a></div>	
+	</div>	
+</div>			
 		
 		<div id="footer">
-			<div id="gray"></div>
-			<div id="black"><div>Tactical Communications System, 2012</div></div>
+			<h1 class="radio">Контакты</h1>
+			<div class="info">ВСТРЕТИТЬСЯ В ОФИСЕ</div>
+			<div class="info zvon">НАПИСАТЬ ИЛИ ПОЗВОНИТЬ</div>
+			<div class="info adres">Москва, ул. Сущевский Вал, д.18, бизнес-центр “Новосущевский”</div>
+			<div class="info tel">pr@tacticsys.ru<br>+7 /495/ 967-9470</div>
+			<hr noshade size="2" color="#fff" class="line">
+			<div id="fut_img"></div>
+			<div id="copyright">Designed by KUKO, 2012</div>
+			
 		</div>
-	</div>
-
-</div>		
-
 
 	
 </body>
