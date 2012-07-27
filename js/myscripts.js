@@ -30,14 +30,11 @@ $("#k").click(function(){
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
 	
+	$("#komanda").css({'height':'100%'});
 	
 	if (raznost > 0) {
 		heightKomanda = heightKomanda + raznost; console.log(heightKomanda);
 		$("#komanda").height(heightKomanda);
-	}
-	else {
-
-		$("#komanda").css({'height':'100%'});
 	};
 	
     $("body,html").animate({"scrollTop":'1909'},500);
@@ -56,10 +53,12 @@ $(".top_m").click(function(){
 //Необходимо прокрутить в начало страницы
 var curPos=$(document).scrollTop();
 var scrollTime=curPos/1.73;
+
+$("#komanda").css({'height':'100%'});
 $("body,html").animate({"scrollTop":0},500);
 
 if (raznost = 0) {
-	heightKomanda = heightKomanda - raznost; console.log(heightKomanda);
+	heightKomanda = heightKomanda - raznost;
 	$("#komanda").height(heightKomanda);
 	};
 
