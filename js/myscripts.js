@@ -1,7 +1,13 @@
 ﻿jQuery(document).ready(function() {
  
  //ВВЕРХ-ВНИЗ_______________________________________________//
- 
+
+	var comanda = $("#komanda");
+	var heightKomanda = $("#komanda").height(); 
+	var heightFut = $("#footer").height();
+	var raznost = $(window).height() - heightKomanda - heightFut;
+	
+	
 $("#m").click(function(){
     //Необходимо прокрутить в конец страницы
     var curPos = $(document).scrollTop();
@@ -23,6 +29,17 @@ $("#k").click(function(){
     var curPos = $(document).scrollTop();
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
+	
+	
+	if (raznost > 0) {
+		heightKomanda = heightKomanda + raznost; console.log(heightKomanda);
+		$("#komanda").height(heightKomanda);
+	}
+	else {
+
+		$("#komanda").css({'height':'100%'});
+	};
+	
     $("body,html").animate({"scrollTop":'1909'},500);
 });
 
@@ -40,6 +57,12 @@ $(".top_m").click(function(){
 var curPos=$(document).scrollTop();
 var scrollTime=curPos/1.73;
 $("body,html").animate({"scrollTop":0},500);
+
+if (raznost = 0) {
+	heightKomanda = heightKomanda - raznost; console.log(heightKomanda);
+	$("#komanda").height(heightKomanda);
+	};
+
 });
 
 //Обработка нажатия на кнопку "Вниз"
@@ -60,7 +83,7 @@ var MAX_PIC; //общее кол-во картинок в блоке
 var MOUSE_CHUVSTVIT = 10; // чувствительность при движении мыши;
 
 // Задаем ширину окна для картинок
-var n = $("#mycarousel .pic").length;
+var n = $(".first").length;
 MAX_PIC = n; 
 m = n * PIC_WIDTH; 				
 $("#mycarousel").width(m);

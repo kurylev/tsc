@@ -41,7 +41,7 @@
 
 /*_____COMMON_____________________________________________________________________________________________*/
 
-html, body{
+html, body, all{
 	height:100%;
 }
 body{
@@ -60,19 +60,14 @@ h1{
 	color:#fff;
 	font:2.25em HelveticaNeueCyrLight;
 }
-/* #wrap {
-	height:100%;
-	padding: 0 0 56px 0;
-	
-} */
 /* #main{
 	min-height:100%;
 	margin: 0 0 -30px 0;
-}
+} */
 #all{
 	overflow:hidden;
-	padding:0 0 30px 0;
-} */
+	/* padding-bottom:-275px; */
+}
 
 /*_____HEADER___________________________________________________________________________________________________*/
 
@@ -142,6 +137,18 @@ h1{
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4cce2', 
             endColorstr='#daeaf7',GradientType=1);
 }
+/*_____slider________________________________________________________________*/
+#wrap2 {
+	overflow:hidden;
+/* 	margin:0 72px 0 75px; */
+	position:relative;
+	width:1062px;
+	height:568px;
+}
+.sht1{
+	float:left;
+}
+
 .shtuka {
 	position:relative;
 }
@@ -337,7 +344,10 @@ h1{
 .post {
 	color:#fff;
 	font:1.2em HelveticaNeueCyrThin;
-	margin:0 0 24px 201px;
+	margin:0 0 30px 201px;
+}
+#komanda .end {
+	margin-bottom:80px;
 }
 .vakansii {
 	position:absolute;
@@ -362,30 +372,39 @@ h1{
 }
 #komanda  .top_m {
 	position:absolute;
-	margin-top:70px;
+	margin-top:-45px;
 	margin-left:810px;
 }
 #komanda .down_m {
 	position:absolute;
-	margin-top:-440px;
+	margin-top:-560px;
 	margin-left:801px;
 }
+#komanda .star{
+	background: url(../img/star.png) no-repeat;
+	width:60px;
+	height:60px;
+	margin-left:140px;
+	margin-top:65px;
+} 
 
 /*_____FOOTER____________________________________________________________________________________________________*/
 
 #footer {
-	position:absolute;
+	/* position:absolute; */
+	overflow:hidden;
 	left:0; bottom:0;
 	width:100%;
-	height:55px;
+	height:275px;
+	background-color:#000;
 	/* margin: 165px 0 0 0; */
 }
-#gray {
+/* #gray {
 	width:100%;
-	height:58px;
+	height:275px;
 	background-color:#333;
-}
-#black {
+} */
+/* #black {
 	padding:1px;
 	width:100%;
 	height:32px;
@@ -396,16 +415,50 @@ h1{
 	color:#fff;
 	font:0.55em HelveticaNeueCyrLight;
 	margin: 7px 0 0 30px;
-}
+} */
 
 
 .top a{
 	color:#fff;
 	font:1em HelveticaNeueCyrThin;
 }
-
-
-
+#footer .radio {
+	margin-left:201px;
+	margin-top:25px;
+}
+.info {
+	position:absolute; 
+	color:#fff;
+	font:0.8em HelveticaNeueCyrThin;
+	margin: 90px 0 0 201px;
+}
+.zvon{
+	margin-top:135px;
+} 
+.adres {
+	margin-left:445px;
+}
+.tel {
+	margin-left:445px;
+	margin-top:133px;
+	line-height:1.5em;
+}
+.line {
+	margin:195px 0 0 201px;
+}
+#fut_img{
+	background: url(../img/futer.png) no-repeat;
+	width:18px;
+	height:24px;
+	margin-left:205px;
+	margin-top:25px;
+}
+#copyright {
+	position:absolute;
+	color:#fff;
+	font:0.73em HelveticaNeueCyrRoman;
+	margin:-20px 0 0 230px;
+}
 
 
 
