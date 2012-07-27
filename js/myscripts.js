@@ -3,9 +3,9 @@
  //ВВЕРХ-ВНИЗ_______________________________________________//
 
 	var comanda = $("#komanda");
-	var heightKomanda = $("#komanda").height(); 
+	var heightKomanda = $("#komanda").height();  console.log(heightKomanda);
 	var heightFut = $("#footer").height();
-	var raznost = $(window).height() - heightKomanda - heightFut;
+	//var raznost = $(window).height() - heightKomanda - heightFut; console.log(raznost);
 	
 	
 $("#m").click(function(){
@@ -29,12 +29,13 @@ $("#k").click(function(){
     var curPos = $(document).scrollTop();
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
-	
-	$("#komanda").css({'height':'100%'});
-	
+
+	var raznost = $(window).height() - heightKomanda - heightFut;
 	if (raznost > 0) {
-		heightKomanda = heightKomanda + raznost; console.log(heightKomanda);
+		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
 		$("#komanda").height(heightKomanda);
+		
+	//else {$("#komanda").css({'height':'601'});
 	};
 	
     $("body,html").animate({"scrollTop":'1909'},500);
@@ -53,14 +54,16 @@ $(".top_m").click(function(){
 //Необходимо прокрутить в начало страницы
 var curPos=$(document).scrollTop();
 var scrollTime=curPos/1.73;
+raznost = 0;
 
-$("#komanda").css({'height':'100%'});
 $("body,html").animate({"scrollTop":0},500);
+//$("#komanda").css({'height':'601'});
 
-if (raznost = 0) {
-	heightKomanda = heightKomanda - raznost;
-	$("#komanda").height(heightKomanda);
-	};
+//if (raznost = 0) {
+	//heightKomanda = heightKomanda - raznost;
+	//$("#komanda").height(heightKomanda);
+	//$("#komanda").css({'height':'601'});
+	//};
 
 });
 
@@ -75,58 +78,30 @@ $("body,html").animate({"scrollTop":docheight},500);
 
 //СЛАЙДЕР______________________________________//
 
-var CONTENT_BLOCK_LEFT_POZ = 0; // левый отс. блока content
-var START_X; //x-позиция мыши при наведении на блок content
-var PIC_WIDTH = 570; // ширина картинки
-var MAX_PIC; //общее кол-во картинок в блоке
-var MOUSE_CHUVSTVIT = 10; // чувствительность при движении мыши;
-
-// Задаем ширину окна для картинок
-var n = $(".first").length;
-MAX_PIC = n; 
-m = n * PIC_WIDTH; 				
-$("#mycarousel").width(m);
-
-/* // Убираем левую скобку
-$( "#button_left" ).css('left',function(){
- if (CONTENT_BLOCK_LEFT_POZ == 0){$("#button_left").hide()};
-}); */
-
-// Прокрутка вправо
-$( "#button_left" ).click(function(){ 
-	var l = CONTENT_BLOCK_LEFT_POZ + PIC_WIDTH;
-	if (l !== PIC_WIDTH) { console.log("Прокрутка вправо. l = " + 1);
-		CONTENT_BLOCK_LEFT_POZ = l;
-		$( ".pic:first" ).animate({
-		left: l
-		}, {
-		duration: 800,
-		step: function( now, fx ){
-			$( ".pic:gt(0)" ).css( "left", now );
+//quote_l	
+	
+     $("#strelka").click(function () {
+		if ($('#sht1').css('display') == 'block') {
+			$('#sht1').hide();                 // убрать
+			$('#sht3').show('slide', { direction: 'left' }, 500);
+			//$('#point').css('background-position','0 100%');
+			
 		}
-		});
-		/* if (l >= 0) {$("#button_left").hide()}; */
-		/* if (l < 0) {$("#button_right").show()}; */
-	} //end if  
-});
-
-// Прокрутка влево
-$( "#button_right" ).click(function(){ 
-	var l = CONTENT_BLOCK_LEFT_POZ - PIC_WIDTH;
-	if (l !== -PIC_WIDTH * (MAX_PIC-3)) { console.log("Прокрутка влево. l = " + 1);
-		CONTENT_BLOCK_LEFT_POZ = l;
-		$( ".pic:first" ).animate({
-			left: l
-		}, {
-		duration: 800,
-		step: function ( now, fx ){
-			$( ".pic:gt(0)" ).css( "left", now );
+		else
+		if ($('#sht3').css('display') == 'block') {
+			$('#sht3').hide();                 // убрать
+			$('#sht2').show('slide', { direction: 'left' }, 500);
+			//$('#point').css('background-position','0 50%');
+		
+		}	
+		else
+		if ($('#sht2').css('display') == 'block') {
+			$('#sht2').hide();                 // убрать
+			$('#sht1').show('slide', { direction: 'left' }, 500);
+			//$('#point').css('background-position','0 0');
+		
 		}
-		});
-		/* if (l==-PIC_WIDTH * (MAX_PIC-2)) {$("#button_right").hide()} */
-		/* if (l!=0) {$("#button_left").show()} */
-	} //end if  
-});
+    }); 
 
 });
 

@@ -65,8 +65,8 @@ h1{
 	margin: 0 0 -30px 0;
 } */
 #all{
-	overflow:hidden;
-	/* padding-bottom:-275px; */
+	 overflow:hidden; 
+	 padding-bottom:-275px; 
 }
 
 /*_____HEADER___________________________________________________________________________________________________*/
@@ -145,8 +145,31 @@ h1{
 	width:1062px;
 	height:568px;
 }
-.sht1{
+/* #sht1, #sht2, #sht3{
 	float:left;
+} */
+#sht1{
+	overflow:hidden; 
+	width:1062px;
+	height:568px;
+	/*  margin:0 0 0 75px; */
+	position:absolute; 
+}
+#sht2{
+	overflow:hidden;
+	width:1062px;
+	height:568px;
+	/*  margin:0 0 0 75px; */
+	position:absolute; 
+	display:none;
+}
+#sht3{
+	overflow:hidden;
+	width:1062px;
+	height:568px;
+	/*  margin:0 0 0 75px;  */
+	position:absolute; 
+	display:none; 
 }
 
 .shtuka {
@@ -257,12 +280,12 @@ h1{
 } */
 #tehno  .top_m {
 	position:absolute;
-	margin-top:570px;
+	margin-top:575px;
 	margin-left:810px;
 }
 #tehno  .down_m {
 	position:absolute;
-	margin-top:20px;
+	margin-top:15px;
 	margin-left:801px;
 }
 
@@ -297,12 +320,12 @@ h1{
 }
 #marketing .top_m {
 	position:absolute;
-	margin-top:445px;
+	margin-top:450px;
 	margin-left:810px;
 }
 #marketing .down_m {
 	position:absolute;
-	margin-top:-105px;
+	margin-top:-110px;
 	margin-left:801px;
 }
 /* .down_m {
@@ -318,11 +341,11 @@ h1{
 
 #komanda {
 	position:relative;
-	padding:1px;
 	overflow:hidden;
+	/* padding-bottom:-590px; */
 	width:100%;
-	height:100%;
-	
+	min-height:601px;
+		
 	background: -moz-linear-gradient(bottom left, #027ed0, #32b5f7); /* Firefox 3.6+ */
     /* Chrome 1-9, Safari 4-5 */
     background: -webkit-gradient(linear, left bottom, right top, 
@@ -377,7 +400,7 @@ h1{
 }
 #komanda .down_m {
 	position:absolute;
-	margin-top:-560px;
+	margin-top:-573px;
 	margin-left:801px;
 }
 #komanda .star{
@@ -396,7 +419,7 @@ h1{
 	left:0; bottom:0;
 	width:100%;
 	height:275px;
-	background-color:#000;
+	background-color:#00121c;
 	/* margin: 165px 0 0 0; */
 }
 /* #gray {
