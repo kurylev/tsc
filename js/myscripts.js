@@ -46,21 +46,30 @@ $("#c").click(function(){
     var curPos = $(document).scrollTop();
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
+	
+	var raznost = $(window).height() - heightKomanda - heightFut;
+	if (raznost > 0) {
+		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
+		$("#komanda").height(heightKomanda);
+		
+	//else {$("#komanda").css({'height':'601'});
+	};
+		
     $("body,html").animate({"scrollTop":'1909'},500);
 });
 
-//Обработка нажатия на кнопку "Вверх"
+	//Обработка нажатия на кнопку "Вверх"
 $(".top_m").click(function(){
-//Необходимо прокрутить в начало страницы
-var curPos=$(document).scrollTop();
-var scrollTime=curPos/1.73;
+	//Необходимо прокрутить в начало страницы
+	var curPos=$(document).scrollTop();
+	var scrollTime=curPos/1.73;
 
-raznost = 0;
+	raznost = 0;
 
-$("body,html").animate({"scrollTop":0},500);
-//$("#komanda").css({'height':'601'});
+	$("body,html").animate({"scrollTop":0},500);
+	//$("#komanda").css({'height':'601'});
 
-//if (raznost = 0) {
+	//if (raznost = 0) {
 	//heightKomanda = heightKomanda - raznost;
 	//$("#komanda").height(heightKomanda);
 	//$("#komanda").css({'height':'601'});
@@ -69,13 +78,39 @@ $("body,html").animate({"scrollTop":0},500);
 });
 
 //Обработка нажатия на кнопку "Вниз"
-$(".down_m").click(function(){
-//Необходимо прокрутить в начало страницы
-var curPos=$(document).scrollTop();
-var scrollTime=curPos/1.73;
-var docheight = $(document).height();
-$("body,html").animate({"scrollTop":docheight},500);
+$("#down_t").click(function(){
+	//Необходимо прокрутить в начало страницы
+	var curPos=$(document).scrollTop();
+	var scrollTime=curPos/1.73;
+	var docheight = $(document).height();
+	$("body,html").animate({"scrollTop":'679'},500);
+	});
+
+	$("#down_mrk").click(function(){
+	//Необходимо прокрутить в начало страницы
+	var curPos=$(document).scrollTop();
+	var scrollTime=curPos/1.73;
+	var docheight = $(document).height();
+	$("body,html").animate({"scrollTop":'1295'},500);
 });
+
+$("#down_k").click(function(){
+	//Необходимо прокрутить в начало страницы
+	var curPos=$(document).scrollTop();
+	var scrollTime=curPos/1.73;
+	var docheight = $(document).height();
+		
+	var raznost = $(window).height() - heightKomanda - heightFut;
+	if (raznost > 0) {
+		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
+		$("#komanda").height(heightKomanda);
+			
+	//else {$("#komanda").css({'height':'601'});
+	};
+
+	$("body,html").animate({"scrollTop":'1910'},500);
+});
+
 
 //СЛАЙДЕР______________________________________//
 

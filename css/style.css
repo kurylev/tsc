@@ -139,11 +139,13 @@ h1{
 }
 /*_____slider________________________________________________________________*/
 #wrap2 {
-	overflow:hidden;
-/* 	margin:0 72px 0 75px; */
+	/* overflow:hidden; */
+	/* margin:2px 0 0 0;  */
 	position:relative;
 	width:1062px;
-	height:568px;
+	height:570px;
+/* 	margin:0;
+	padding:0; */
 }
 /* #sht1, #sht2, #sht3{
 	float:left;
@@ -151,14 +153,14 @@ h1{
 #sht1{
 	overflow:hidden; 
 	width:1062px;
-	height:568px;
+	height:570px;
 	/*  margin:0 0 0 75px; */
 	position:absolute; 
 }
 #sht2{
 	overflow:hidden;
 	width:1062px;
-	height:568px;
+	height:570px;
 	/*  margin:0 0 0 75px; */
 	position:absolute; 
 	display:none;
@@ -166,7 +168,7 @@ h1{
 #sht3{
 	overflow:hidden;
 	width:1062px;
-	height:568px;
+	height:570px;
 	/*  margin:0 0 0 75px;  */
 	position:absolute; 
 	display:none; 
@@ -175,7 +177,7 @@ h1{
 .shtuka {
 	position:relative;
 }
-.first{
+.first, .two_img, .three_img{
 	height:570px;
 }
 #proekty {
@@ -210,10 +212,10 @@ h1{
 	text-align:center;
 	margin: -478px 0 0 833px;
 }
-.two {
+#strelka {
 	position:absolute;
 	margin-top:-290px;
-	margin-left:1050px;
+	margin-left:1020px;
 }
 
 #mycarousel {
@@ -281,12 +283,12 @@ h1{
 #tehno  .top_m {
 	position:absolute;
 	margin-top:575px;
-	margin-left:810px;
+	margin-left:1023px;
 }
 #tehno  .down_m {
 	position:absolute;
 	margin-top:15px;
-	margin-left:801px;
+	margin-left:1020px;
 }
 
 /*_____MARKETING____________________________________________________________________________________________________*/
@@ -321,12 +323,12 @@ h1{
 #marketing .top_m {
 	position:absolute;
 	margin-top:450px;
-	margin-left:810px;
+	margin-left:1023px;
 }
 #marketing .down_m {
 	position:absolute;
 	margin-top:-110px;
-	margin-left:801px;
+	margin-left:1020px;
 }
 /* .down_m {
 	position:absolute;
@@ -396,12 +398,12 @@ h1{
 #komanda  .top_m {
 	position:absolute;
 	margin-top:-45px;
-	margin-left:810px;
+	margin-left:1023px;
 }
 #komanda .down_m {
 	position:absolute;
 	margin-top:-573px;
-	margin-left:801px;
+	margin-left:1020px;
 }
 #komanda .star{
 	background: url(../img/star.png) no-repeat;
