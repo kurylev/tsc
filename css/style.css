@@ -212,10 +212,18 @@ h1{
 	text-align:center;
 	margin: -478px 0 0 833px;
 }
-#strelka {
-	position:absolute;
-	margin-top:-290px;
-	margin-left:1020px;
+
+
+#strelka_l {
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 50px;
+}
+
+#strelka_r {
+	position: absolute;
+	margin-top: -290px;
+	margin-left: 1020px;
 }
 
 #mycarousel {
