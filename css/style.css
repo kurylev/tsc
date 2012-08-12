@@ -162,7 +162,7 @@ h1{
 	width:1062px;
 	height:570px;
 	/*  margin:0 0 0 75px; */
-	position:absolute; 
+	position:relative; 
 	display:none;
 }
 #sht3{
@@ -199,11 +199,11 @@ h1{
 	text-decoration:none;
 	font:0.75em HelveticaNeueCyrRoman;
 }
-#text {
+.text {
 	position:absolute;
-	margin:-461px 0 0 355px;
+	margin:-460px 0 0 355px;
 	color:#fff;
-	font:2.2em HelveticaNeueCyrThin;
+	font:2.2em HelveticaNeueCyrLight;
 }
 #krug {
 	color:#fff;
@@ -212,7 +212,38 @@ h1{
 	text-align:center;
 	margin: -478px 0 0 833px;
 }
-
+.qubik {
+	margin:-500px 0 0 485px;
+}
+.qubik > span {
+	color:#FECE00;
+}
+.qubik1{
+	position:absolute;
+	/* padding:0 6px 0 0; */
+	margin:-189px 0 0 230px;
+}
+.qubik1 li{
+	color:#000;
+	font:0.9em HelveticaNeueCyrThin;
+	font-weight:bold;
+	float:left;
+	margin:0 40px;
+	list-style-type:none;
+}
+.qubik2{
+	position:absolute;
+	/* padding:0 6px 0 0; */
+	margin:-157px 0 0 230px;
+}
+.qubik2 li {
+	color:#000;
+	font:0.8em HelveticaNeueCyrThin;
+	font-weight:bold; 
+	float:left;
+	margin:0 30px;
+	list-style-type:none;
+}
 
 #strelka_l {
     position: absolute;
