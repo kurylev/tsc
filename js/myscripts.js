@@ -32,7 +32,7 @@ $("#k").click(function(){
 
 	var raznost = $(window).height() - heightKomanda - heightFut;
 	if (raznost > 0) {
-		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
+		heightKomanda = heightKomanda + raznost;
 		$("#komanda").height(heightKomanda);
 		
 	//else {$("#komanda").css({'height':'601'});
@@ -47,6 +47,7 @@ $("#c").click(function(){
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
 	
+	
 	var raznost = $(window).height() - heightKomanda - heightFut;
 	if (raznost > 0) {
 		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
@@ -55,7 +56,7 @@ $("#c").click(function(){
 	//else {$("#komanda").css({'height':'601'});
 	};
 		
-    $("body,html").animate({"scrollTop":'1909'},500);
+    $("body,html").animate({scrollTop:$(document).height()},800);
 });
 
 	//Обработка нажатия на кнопку "Вверх"

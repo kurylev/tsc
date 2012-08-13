@@ -244,6 +244,71 @@ h1{
 	margin:0 30px;
 	list-style-type:none;
 }
+.li1 {
+	padding:15px 0 0 25px;
+}
+/* ___________ table________________ */
+#table1 {
+	margin:-204px 0 0 280px;
+	border-spacing:45px 12px;
+	/* width:100%; */
+}
+.tab1{
+	color:#000;
+	font:0.8em HelveticaNeueCyrThin;
+	font-weight:bold;
+	/* margin:0 40px; */
+}
+#table2 {
+	margin:2px 0 0 280px;
+	border-spacing:45px 0px;
+	position:relative;
+	vertical-align:middle;
+	/* width:100%; */
+}
+.tab2{
+	color:#000;
+	font:0.9em HelveticaNeueCyrThin;
+	font-weight:bold;
+	/* margin:0 40px; */
+}
+.cifra {
+	color:#000;
+	font:3em HelveticaNeueCyrRoman;
+	font-weight:bold;
+	float:left;
+	margin: -5px 8px 0 0;
+}
+.cifra3 {
+	color:#000;
+	font:3em HelveticaNeueCyrRoman;
+	font-weight:bold;
+	float:left;
+	margin: 4px 6px 0 0;
+}
+
+/* #table_1{
+	border-spacing:5px 2px;
+	width:100%;
+	margin-top:10px;
+	margin-right:53px;
+} */
+/* #table_1 td{
+	vertical-align:middle;
+	text-align:left;
+}
+.namber{
+	font:5.5em HeroRegular;
+	color:#ed1568;
+}
+.text{
+	font:1.6em HelveticaNeueCyrRoman;
+	line-height:3.4;
+	color:#676767;
+} */
+
+
+/* ___________ /table________________ */
 
 #strelka_l {
     position: absolute;
@@ -455,7 +520,7 @@ h1{
 /*_____FOOTER____________________________________________________________________________________________________*/
 
 #footer {
-	/* position:absolute; */
+	position:relative;
 	overflow:hidden;
 	left:0; bottom:0;
 	width:100%;
