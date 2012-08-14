@@ -36,7 +36,15 @@
          url(../fonts/myriadpro-regular_-webfont.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url(../fonts/helveticaneuecyr-bold-webfont.eot);
+    src: url(../fonts/helveticaneuecyr-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneuecyr-bold-webfont.woff) format('woff'),
+         url(../fonts/helveticaneuecyr-bold-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*_____COMMON_____________________________________________________________________________________________*/
@@ -249,42 +257,45 @@ h1{
 }
 /* ___________ table________________ */
 #table1 {
-	margin:-204px 0 0 280px;
+	margin:-200px 0 0 280px;
 	border-spacing:45px 12px;
 	/* width:100%; */
 }
 .tab1{
 	color:#000;
-	font:0.8em HelveticaNeueCyrThin;
-	font-weight:bold;
+	font:0.7em helveticaneuecyrbold;
+	/* font-weight:bold; */
 	/* margin:0 40px; */
 }
 #table2 {
-	margin:2px 0 0 280px;
-	border-spacing:45px 0px;
+	margin:10px 0 0 300px;
+	border-spacing:15px 0px;
 	position:relative;
 	vertical-align:middle;
-	/* width:100%; */
+	/* width:390px; */
+	width:65%;
 }
 .tab2{
 	color:#000;
-	font:0.9em HelveticaNeueCyrThin;
-	font-weight:bold;
+	font:0.8em helveticaneuecyrbold;
+	line-height:0.9em;
+	width:50px;
+	/* font-weight:bold; */
 	/* margin:0 40px; */
 }
 .cifra {
 	color:#000;
-	font:3em HelveticaNeueCyrRoman;
-	font-weight:bold;
+	font:3em helveticaneuecyrbold;
+	/* font-weight:bold; */
 	float:left;
-	margin: -5px 8px 0 0;
+	margin: -10px 7px 0 0;
 }
 .cifra3 {
 	color:#000;
-	font:3em HelveticaNeueCyrRoman;
-	font-weight:bold;
+	font:3em helveticaneuecyrbold;
+	/* font-weight:bold; */
 	float:left;
-	margin: 4px 6px 0 0;
+	margin: -4px 6px 0 0;
 }
 
 /* #table_1{
