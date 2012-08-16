@@ -320,6 +320,9 @@ h1{
 
 
 /* ___________ /table________________ */
+.text2_img {
+	margin:4px 0 0 318px;
+}
 
 #strelka_l {
     position: absolute;
