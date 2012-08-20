@@ -64,6 +64,11 @@ a:hover {
 	text-decoration: underline;
 	color:#ccc;
 }
+a:active, a:focus, a:hover, img {
+	outline:0;
+	border:none;
+}
+
 h1{
 	color:#fff;
 	font:2.25em HelveticaNeueCyrLight;
@@ -406,7 +411,8 @@ h1{
 #tehno  .down_m {
 	position:absolute;
 	margin-top:15px;
-	margin-left:1020px;
+	margin-left:1015px;
+/* 	background: url(../img/down.svg) no-repeat; */
 }
 
 /*_____MARKETING____________________________________________________________________________________________________*/
@@ -446,7 +452,7 @@ h1{
 #marketing .down_m {
 	position:absolute;
 	margin-top:-110px;
-	margin-left:1020px;
+	margin-left:1015px;
 }
 /* .down_m {
 	position:absolute;
@@ -521,7 +527,7 @@ h1{
 #komanda .down_m {
 	position:absolute;
 	margin-top:-573px;
-	margin-left:1020px;
+	margin-left:1015px;
 }
 #komanda .star{
 	background: url(../img/star.png) no-repeat;
@@ -588,6 +594,8 @@ h1{
 }
 .line {
 	margin:195px 0 0 201px;
+	$margin:-7px 0;/*for all ie*/
+    background-color:#fff;
 }
 #fut_img{
 	background: url(../img/futer.png) no-repeat;
