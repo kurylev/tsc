@@ -7,9 +7,9 @@
 .logo_w {
 	background: url(../img/logo_w.png) no-repeat;
 }
-.down_m {
-	background: url(../img/down.png) no-repeat;
-}
+/* .down_m {
+	background: url(../img/down.png) no-repeat  !important; 
+} */
 #nav {
 	float:left;
 	margin: 35px 0 0 92px;

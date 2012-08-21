@@ -49,12 +49,17 @@
 
 /*_____COMMON_____________________________________________________________________________________________*/
 
+html {
+	overflow:auto;
+}
 html, body, all{
 	height:100%;
+	width:100%;
 }
 body{
 	margin:0;
-	padding:0;
+	padding:0; 
+	min-width:1200px;
 }
 a {
 	text-decoration: none !important;
@@ -81,6 +86,11 @@ h1{
 	 overflow:hidden; 
 	 padding-bottom:-275px; 
 }
+#wrap {
+	position:absolute;
+	margin-top:-50px;
+	width:1200px;
+}
 
 /*_____HEADER___________________________________________________________________________________________________*/
 
@@ -93,9 +103,9 @@ h1{
 .logo {
 	float:left;
 	margin: 12px 0 0 20px;
+	background: url(../img/logo.svg) no-repeat;
 	width:234px;
 	height:90px;
-	background: url(../img/logo.svg) no-repeat;
 }
 #nav {
 	float:left;
@@ -149,6 +159,7 @@ h1{
 	
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4cce2', 
             endColorstr='#daeaf7',GradientType=1);
+	
 }
 /*_____slider________________________________________________________________*/
 #wrap2 {
@@ -192,6 +203,7 @@ h1{
 }
 .first, .two_img, .three_img{
 	height:570px;
+	width:1065px;
 }
 #proekty {
 	position:relative;
@@ -264,6 +276,8 @@ h1{
 #table1 {
 	margin:-200px 0 0 280px;
 	border-spacing:45px 12px;
+	width:700px;
+	height:72px;
 	/* width:100%; */
 }
 .tab1{
@@ -303,42 +317,27 @@ h1{
 	margin: -4px 6px 0 0;
 }
 
-/* #table_1{
-	border-spacing:5px 2px;
-	width:100%;
-	margin-top:10px;
-	margin-right:53px;
-} */
-/* #table_1 td{
-	vertical-align:middle;
-	text-align:left;
-}
-.namber{
-	font:5.5em HeroRegular;
-	color:#ed1568;
-}
-.text{
-	font:1.6em HelveticaNeueCyrRoman;
-	line-height:3.4;
-	color:#676767;
-} */
-
-
 /* ___________ /table________________ */
 .text2_img {
 	margin:4px 0 0 318px;
+	width:666px;
+	height:53px;
 }
 
 #strelka_l {
     position: absolute;
     margin-top: -290px;
     margin-left: 50px;
+	width:28px;
+	height:52px;
 }
 
 #strelka_r {
 	position: absolute;
 	margin-top: -290px;
 	margin-left: 1020px;
+	width:28px;
+	height:52px;
 }
 
 #mycarousel {
@@ -369,9 +368,9 @@ h1{
 .logo_w{
 	float:left;
 	margin: 60px 0 0 102px;
+	background: url(../img/logo_w.svg) no-repeat;
 	width:91px;
 	height:78px;
-	background: url(../img/logo_w.svg) no-repeat;
 	
 }
 .radio {
@@ -397,22 +396,19 @@ h1{
 	margin: 345px 0 0 203px;
 }
 
-/* .vverh{
-	position:absolute;
-	margin: 579px 0 0 1040px;
-	padding:0;
-	width:5px;
-} */
 #tehno  .top_m {
 	position:absolute;
 	margin-top:575px;
 	margin-left:1023px;
+	width:26px;
+	height:17px;
 }
 #tehno  .down_m {
 	position:absolute;
 	margin-top:15px;
 	margin-left:1015px;
-/* 	background: url(../img/down.svg) no-repeat; */
+	width:33px;
+	height:27px;
 }
 
 /*_____MARKETING____________________________________________________________________________________________________*/
@@ -448,20 +444,16 @@ h1{
 	position:absolute;
 	margin-top:450px;
 	margin-left:1023px;
+	width:26px;
+	height:17px;
 }
 #marketing .down_m {
 	position:absolute;
 	margin-top:-110px;
 	margin-left:1015px;
+	width:33px;
+	height:27px;
 }
-/* .down_m {
-	position:absolute;
-	margin-top:200px;
-	margin-left:505px;
-	color:#a2daf4;
-	font:0.7em HelveticaNeueCyrThin;
-} */
-
 
 /*_____KOMANDA____________________________________________________________________________________________________*/
 
@@ -523,11 +515,15 @@ h1{
 	position:absolute;
 	margin-top:-45px;
 	margin-left:1023px;
+	width:26px;
+	height:17px;
 }
 #komanda .down_m {
 	position:absolute;
 	margin-top:-573px;
 	margin-left:1015px;
+	width:33px;
+	height:27px;
 }
 #komanda .star{
 	background: url(../img/star.png) no-repeat;
@@ -548,24 +544,6 @@ h1{
 	background-color:#00121c;
 	/* margin: 165px 0 0 0; */
 }
-/* #gray {
-	width:100%;
-	height:275px;
-	background-color:#333;
-} */
-/* #black {
-	padding:1px;
-	width:100%;
-	height:32px;
-	background-color:#000;
-	margin: -35px 0 0 200px;
-}
-#black>div {
-	color:#fff;
-	font:0.55em HelveticaNeueCyrLight;
-	margin: 7px 0 0 30px;
-} */
-
 
 .top a{
 	color:#fff;

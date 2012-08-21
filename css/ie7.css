@@ -12,10 +12,10 @@
 	margin: 50px 0 0 51px;
 }
 #plashka{
-	margin:-430px 0 0 205px;
+	position:static;
 }
 #krug {
-	margin: -468px 0 0 833px;
+	margin: -280px 0 0 833px;
 }
 .radio_text{
 	margin: 160px 0 0 -365px;
@@ -28,8 +28,41 @@
 }
 #footer {
 	width:100%;
-	height:50px;
-	margin: 175px 0 0 0;
-	position:absolute;
 }
+.text {
+	margin-top:-268px;
+}
+#table1 {
+	margin: -198px 0 0 315px;
+	z-index: expression(
+    runtimeStyle.zIndex = 1,
+    cellSpacing = 12
+  );
+  width:62%; 
+}
+#tehno  .down_m {
+	margin-left:450px;
+}
+#tehno  .top_m {
+	margin-left:453px;
+}
+#fut_img {
+	margin-left:200px;
+}
+.info {
+	margin-left:-155px;
+}
+.tel {
+	margin-left:100px;	
+}
+.adres {
+	margin-left:100px;	
+}
+.line {
+	margin-top:180px;
+	margin-left:-155px;
+	height:2px;
+	color:#fff;
+}
+
 /*тест*/
