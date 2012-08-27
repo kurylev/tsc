@@ -202,8 +202,8 @@ h1{
 	position:relative;
 }
 .first, .two_img, .three_img{
-	height:570px;
 	width:1065px;
+	height:570px;
 }
 #proekty {
 	position:relative;
@@ -238,10 +238,11 @@ h1{
 	margin: -478px 0 0 833px;
 }
 .qubik {
-	margin:-500px 0 0 485px;
+	margin:-540px 0 0 555px;
 }
 .qubik > span {
-	color:#FECE00;
+/* 	color:#FECE00; */
+	color:#000;
 }
 .qubik1{
 	position:absolute;
