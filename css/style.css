@@ -242,7 +242,7 @@ h1{
 }
 .qubik > span {
 /* 	color:#FECE00; */
-	color:#000;
+	color:#027ed0;
 }
 .qubik1{
 	position:absolute;
@@ -368,7 +368,7 @@ h1{
 }
 .logo_w{
 	float:left;
-	margin: 60px 0 0 102px;
+	margin: 40px 0 0 102px;
 	background: url(../img/logo_w.svg) no-repeat;
 	width:91px;
 	height:78px;
@@ -376,11 +376,12 @@ h1{
 }
 .radio {
 	float:left;
-	margin: 70px 0 0 8px;
+	margin: 50px 0 0 8px;
+	width:500px;
 }
 .radio_text{
 	position:absolute;
-	margin: 125px 0 0 203px;
+	margin: 112px 0 0 203px;
 	color:#fff;
 	font:0.9em HelveticaNeueCyrRoman;
 }
@@ -388,10 +389,10 @@ h1{
 	margin-top:0;
 }
 .logo2{
-	margin: 275px 0 0 -470px;
+	margin: 275px 0 0 -600px;
 }
 .radio2 {
-	margin: 285px 0 0 -365px;
+	margin: 285px 0 0 -497px;
 }
 .radio_text2{
 	margin: 345px 0 0 203px;
@@ -450,10 +451,26 @@ h1{
 }
 #marketing .down_m {
 	position:absolute;
-	margin-top:-110px;
+	margin-top:-580px;
 	margin-left:1015px;
 	width:33px;
 	height:27px;
+}
+
+.sfera {
+	background: url(../img/sfera.png) no-repeat;
+	width:68px;
+	height:95px;
+	margin-left:140px;
+	margin-top:29px;
+}
+
+#soty {
+	background: url(../img/soty.png) no-repeat;
+	width:728px;
+	height:486px;
+	margin-left:200px;
+	margin-top:10px;
 }
 
 /*_____KOMANDA____________________________________________________________________________________________________*/
@@ -521,7 +538,7 @@ h1{
 }
 #komanda .down_m {
 	position:absolute;
-	margin-top:-573px;
+	margin-top:-553px;
 	margin-left:1015px;
 	width:33px;
 	height:27px;
@@ -531,7 +548,7 @@ h1{
 	width:60px;
 	height:60px;
 	margin-left:140px;
-	margin-top:65px;
+	margin-top:45px;
 } 
 
 /*_____FOOTER____________________________________________________________________________________________________*/
