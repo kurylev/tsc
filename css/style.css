@@ -325,6 +325,7 @@ h1{
     margin-left: 50px;
 	width:28px;
 	height:52px;
+	cursor:pointer;
 }
 
 #strelka_r {
@@ -333,11 +334,9 @@ h1{
 	margin-left: 1020px;
 	width:28px;
 	height:52px;
+	cursor:pointer;
 }
 
-#mycarousel {
-	
-}
 
 /*_____TEHNO____________________________________________________________________________________________________*/
 
@@ -470,11 +469,12 @@ h1{
 /*_____KOMANDA____________________________________________________________________________________________________*/
 
 #komanda {
-	position:relative;
+	position:absolute;
 	overflow:hidden;
 	/* padding-bottom:-590px; */
-	width:100%;
+ 	width:100%;
 	min-height:601px;
+	height:100%;
 		
 	background: -moz-linear-gradient(bottom left, #027ed0, #32b5f7); /* Firefox 3.6+ */
     /* Chrome 1-9, Safari 4-5 */
@@ -544,6 +544,62 @@ h1{
 	margin-left:140px;
 	margin-top:45px;
 } 
+
+#komanda2 {
+	overflow:hidden;
+	position:relative; 
+ 	width:100%;
+	min-height:601px; 
+	height:100%;
+
+		
+	background: -moz-linear-gradient(bottom left, #027ed0, #32b5f7); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left bottom, right top, 
+                color-stop(100%,#027ed0), color-stop(100%,#32b5f7));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(bottom left,  #027ed0, #32b5f7);
+    background: -o-linear-gradient(bottom left, #027ed0, #32b5f7); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom left, #027ed0, #32b5f7); /* IE10 */
+    background: linear-gradient(bottom left, #027ed0, #32b5f7); /* CSS3 */ 
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027ed0', 
+            endColorstr='#32b5f7',GradientType=1);
+
+	display:none;
+}
+#komanda .cel{
+	background: url(../img/cel.png) no-repeat;
+	width:40px;
+	height:40px;
+	margin-left:140px;
+	margin-top:52px;
+} 
+
+#strelka_l2 {
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 50px;
+	width:28px;
+	height:52px;
+	cursor:pointer;
+}
+
+#strelka_r2 {
+	position: absolute;
+	margin-top: -290px;
+	margin-left: 1020px;
+	width:28px;
+	height:52px;
+	cursor:pointer;
+}
+
+#wrap3 {
+	position:relative;
+	width:100%;
+	min-height:601px;
+}
+
 
 /*_____FOOTER____________________________________________________________________________________________________*/
 

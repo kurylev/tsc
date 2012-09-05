@@ -2,10 +2,12 @@
  
  //ВВЕРХ-ВНИЗ_______________________________________________//
 
-	var comanda = $("#komanda");
-	var heightKomanda = $("#komanda").height();  console.log(heightKomanda);
-	var heightFut = $("#footer").height();
-	//var raznost = $(window).height() - heightKomanda - heightFut; console.log(raznost);
+var comanda = $("#wrap3");
+var raznost;
+var heightKomanda = $("#wrap3").height();  
+console.log(heightKomanda);
+var heightFut = $("#footer").height();
+//var raznost = $(window).height() - heightKomanda - heightFut; console.log(raznost);
 	
 	
 $("#t").click(function(){
@@ -40,7 +42,7 @@ $("#k").click(function(){
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
 
-	var raznost = $(window).height() - heightKomanda - heightFut;
+	raznost = $(window).height() - heightKomanda - heightFut;
 	var heightMarketing = $("#marketing").height();
 	
 	var heightProekty = $("#header").height();
@@ -51,12 +53,13 @@ $("#k").click(function(){
 		
 	if (raznost > 0) {
 		heightKomanda = heightKomanda + raznost;
-		$("#komanda").height(heightKomanda);
+		$("#wrap3").height(heightKomanda);
 		
 	//else {$("#komanda").css({'height':'601'});
 	};
 	
-    $("body,html").animate({"scrollTop":'1909'},500);
+    $("body,html").animate({"scrollTop":+heightK},500);
+	$("#warp4").css({'margin':'210'});
 });
 
 $("#c").click(function(){
@@ -66,10 +69,10 @@ $("#c").click(function(){
     var scrollTime = (height-curPos)/1.73;
 	
 	
-	var raznost = $(window).height() - heightKomanda - heightFut;
+	raznost = $(window).height() - heightKomanda - heightFut;
 	if (raznost > 0) {
 		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
-		$("#komanda").height(heightKomanda);
+		$("#wrap3").height(heightKomanda);
 		
 	//else {$("#komanda").css({'height':'601'});
 	};
@@ -82,14 +85,16 @@ $(".top_m").click(function(){
 	//Необходимо прокрутить в начало страницы
 	var curPos=$(document).scrollTop();
 	var scrollTime=curPos/1.73;
-
-	raznost = 0;
+	heightKomanda = heightKomanda - raznost;
+	//raznost = 0;
 
 	$("body,html").animate({"scrollTop":0},500);
-	//$("#komanda").css({'height':'601'});
+	$("#wrap3").css({'height':+heightKomanda});
+	
 
 	//if (raznost = 0) {
-	//heightKomanda = heightKomanda - raznost;
+	
+	//$("#wrap3").height(heightKomanda);
 	//$("#komanda").height(heightKomanda);
 	//$("#komanda").css({'height':'601'});
 	//};
@@ -119,10 +124,10 @@ $("#down_k").click(function(){
 	var scrollTime=curPos/1.73;
 	var docheight = $(document).height();
 		
-	var raznost = $(window).height() - heightKomanda - heightFut;
+	raznost = $(window).height() - heightKomanda - heightFut;
 	if (raznost > 0) {
 		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
-		$("#komanda").height(heightKomanda);
+		$("#wrap3").height(heightKomanda);
 			
 	//else {$("#komanda").css({'height':'601'});
 	};
@@ -178,6 +183,37 @@ $("#down_k").click(function(){
 
         } */
     });
+	
+	
+//СЛАЙДЕР2______________________________________//
+
+
+     $("#strelka_r2").click(function () {
+		if ($('#komanda').css('display') == 'block') {
+			$('#komanda').hide('slide', { direction: 'right' }, 500);                 // убрать
+			$('#komanda2').show('slide', { direction: 'left' }, 500);
+		}
+		else
+		if ($('#komanda2').css('display') == 'block') {
+			$('#komanda2').hide('slide', { direction: 'right' }, 500);                 // убрать
+			$('#komanda').show('slide', { direction: 'left' }, 500);
+		}	
+
+    });
+
+    $("#strelka_l2").click(function () {
+        if ($('#komanda').css('display') == 'block') {
+            $('#komanda').hide('slide', { direction: 'left' }, 500);                 // убрать
+            $('#komanda2').show('slide', { direction: 'right' }, 500);
+        }
+        else
+        if ($('#komanda2').css('display') == 'block') {
+            $('#komanda2').hide('slide', { direction: 'left' }, 500);                 // убрать
+            $('#komanda').show('slide', { direction: 'right' }, 500);
+        }
+     });
+
+
 });
 
 
