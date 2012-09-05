@@ -8,21 +8,31 @@
 	//var raznost = $(window).height() - heightKomanda - heightFut; console.log(raznost);
 	
 	
-$("#m").click(function(){
-    //Необходимо прокрутить в конец страницы
-    var curPos = $(document).scrollTop();
-    var height = $("body").height();
-    var scrollTime = (height-curPos)/1.73;
-    $("body,html").animate({"scrollTop":'1294'},500);
-});
-
 $("#t").click(function(){
     //Необходимо прокрутить в конец страницы
     var curPos = $(document).scrollTop();
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
-    $("body,html").animate({"scrollTop":'680'},500);
+	
+	var heightProekty = $("#header").height();
+	var heightHeader = $("#proekty").height();
+	var heightT = heightProekty + heightHeader;
+    $("body,html").animate({"scrollTop":+heightT},500);
 });
+
+$("#m").click(function(){
+    //Необходимо прокрутить в конец страницы
+    var curPos = $(document).scrollTop();
+    var height = $("body").height();
+    var scrollTime = (height-curPos)/1.73;
+	
+	var heightProekty = $("#header").height();
+	var heightHeader = $("#proekty").height();
+	var heightTehno = $("#tehno").height();
+	var heightM = heightProekty + heightHeader + heightTehno;
+    $("body,html").animate({"scrollTop":+heightM},500);
+});
+
 
 $("#k").click(function(){
     //Необходимо прокрутить в конец страницы
@@ -31,6 +41,14 @@ $("#k").click(function(){
     var scrollTime = (height-curPos)/1.73;
 
 	var raznost = $(window).height() - heightKomanda - heightFut;
+	var heightMarketing = $("#marketing").height();
+	
+	var heightProekty = $("#header").height();
+	var heightHeader = $("#proekty").height();
+	var heightTehno = $("#tehno").height();
+	var heightMarketing = $("#marketing").height();
+	var heightK = heightProekty + heightHeader + heightTehno + heightMarketing;
+		
 	if (raznost > 0) {
 		heightKomanda = heightKomanda + raznost;
 		$("#komanda").height(heightKomanda);
