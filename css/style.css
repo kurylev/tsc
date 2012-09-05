@@ -189,14 +189,7 @@ h1{
 	position:relative; 
 	display:none;
 }
-#sht3{
-	overflow:hidden;
-	width:1062px;
-	height:570px;
-	/*  margin:0 0 0 75px;  */
-	position:absolute; 
-	display:none; 
-}
+
 
 .shtuka {
 	position:relative;
@@ -238,11 +231,12 @@ h1{
 	margin: -478px 0 0 833px;
 }
 .qubik {
-	margin:-540px 0 0 555px;
+	margin:-550px 0 0 530px;
 }
 .qubik > span {
 /* 	color:#FECE00; */
-	color:#027ed0;
+/* 	color:#027ed0; */
+	color:#DDAF00; 
 }
 .qubik1{
 	position:absolute;
@@ -275,7 +269,7 @@ h1{
 }
 /* ___________ table________________ */
 #table1 {
-	margin:-200px 0 0 280px;
+	margin:-200px 0 0 195px;
 	border-spacing:45px 12px;
 	width:700px;
 	height:72px;
@@ -320,7 +314,7 @@ h1{
 
 /* ___________ /table________________ */
 .text2_img {
-	margin:4px 0 0 318px;
+	margin:4px 0 0 225px;
 	width:666px;
 	height:53px;
 }
@@ -444,7 +438,7 @@ h1{
 }
 #marketing .top_m {
 	position:absolute;
-	margin-top:450px;
+	margin-top:-16px;
 	margin-left:1023px;
 	width:26px;
 	height:17px;
