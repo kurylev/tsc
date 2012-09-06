@@ -3,7 +3,7 @@
  //ВВЕРХ-ВНИЗ_______________________________________________//
 
 var comanda = $("#wrap3");
-var raznost;
+var raznost = 0;
 var heightKomanda = $("#wrap3").height();  
 console.log(heightKomanda);
 var heightFut = $("#footer").height();
@@ -84,20 +84,13 @@ $("#c").click(function(){
 $(".top_m").click(function(){
 	//Необходимо прокрутить в начало страницы
 	var curPos=$(document).scrollTop();
-	var scrollTime=curPos/1.73;
-	heightKomanda = heightKomanda - raznost;
-	//raznost = 0;
+	var scrollTime = curPos / 1.73;
+	if (raznost > 0) {
+		heightKomanda = heightKomanda - raznost;
+		$("#wrap3").css({'height': +heightKomanda});
+	}
 
-	$("body,html").animate({"scrollTop":0},500);
-	$("#wrap3").css({'height':+heightKomanda});
-	
-
-	//if (raznost = 0) {
-	
-	//$("#wrap3").height(heightKomanda);
-	//$("#komanda").height(heightKomanda);
-	//$("#komanda").css({'height':'601'});
-	//};
+	$("body,html").animate({"scrollTop": 0}, 500);
 
 });
 

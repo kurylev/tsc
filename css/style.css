@@ -437,7 +437,7 @@ h1{
 }
 #marketing .top_m {
 	position:absolute;
-	margin-top:-16px;
+	margin-top:-34px;
 	margin-left:1023px;
 	width:26px;
 	height:17px;
@@ -462,8 +462,8 @@ h1{
 	background: url(../img/soty.png) no-repeat;
 	width:728px;
 	height:486px;
-	margin-left:200px;
-	margin-top:10px;
+	margin-top:30px;
+	margin-left:150px;
 }
 
 /*_____KOMANDA____________________________________________________________________________________________________*/
@@ -488,6 +488,9 @@ h1{
 	
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027ed0', 
             endColorstr='#32b5f7',GradientType=1);
+}
+#komanda>.radio_text{
+	margin-top:140px;
 }
 .name {
 	color:#fff;
@@ -523,9 +526,9 @@ h1{
 	font:0.55em HelveticaNeueCyrLight;
 	margin:53px 0 0 570px;
 }
-#komanda  .top_m {
+.bot {
 	position:absolute;
-	margin-top:-45px;
+	margin-top:-40px;
 	margin-left:1023px;
 	width:26px;
 	height:17px;
@@ -573,27 +576,39 @@ h1{
 	width:40px;
 	height:40px;
 	margin-left:140px;
-	margin-top:52px;
+	margin-top:50px;
 } 
 
 #strelka_l2 {
     position: absolute;
-    margin-top: -290px;
+    margin-top: 275px;
+/* 	margin-top:-50%; */
     margin-left: 50px;
 	width:28px;
 	height:52px;
 	cursor:pointer;
+	z-index:5;
 }
 
 #strelka_r2 {
 	position: absolute;
-	margin-top: -290px;
+	margin-top: 275px;
 	margin-left: 1020px;
 	width:28px;
 	height:52px;
 	cursor:pointer;
+	z-index:5;
 }
-
+#komanda2  .top_m {
+	position:absolute;
+	margin-top:30px;
+	margin-left:1023px;
+	width:26px;
+	height:17px;
+}
+.alexs {
+	margin-top:112px;
+}
 #wrap3 {
 	position:relative;
 	width:100%;
