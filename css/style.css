@@ -46,9 +46,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
 /*_____COMMON_____________________________________________________________________________________________*/
-
 html {
 	overflow:auto;
 }
@@ -78,10 +76,6 @@ h1{
 	color:#fff;
 	font:2.25em HelveticaNeueCyrLight;
 }
-/* #main{
-	min-height:100%;
-	margin: 0 0 -30px 0;
-} */
 #all{
 	 overflow:hidden; 
 	 padding-bottom:-275px; 
@@ -91,9 +85,7 @@ h1{
 	margin-top:-50px;
 	width:1200px;
 }
-
 /*_____HEADER___________________________________________________________________________________________________*/
-
 #header {
 	overflow:hidden;
 	width:100%;
@@ -134,15 +126,13 @@ h1{
 .menu li:hover > a{
 	color:#0581D2;
 }
-.position {
+/* .position {
 	position:absolute;
 	margin-top:14px;
 	padding:0;
-}
-
+} */
 
 /*_____PROEKTY____________________________________________________________________________________________________*/
-
 #proekty {
 	width:100%;
 	height:570px;
@@ -156,41 +146,28 @@ h1{
     background: -o-linear-gradient(bottom left, #b4cce2, #daeaf7); /* Opera 11.10+ */
     background: -ms-linear-gradient(bottom left, #b4cce2, #daeaf7); /* IE10 */
     background: linear-gradient(bottom left, #b4cce2, #daeaf7); /* CSS3 */
-	
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4cce2', 
             endColorstr='#daeaf7',GradientType=1);
-	
 }
 /*_____slider________________________________________________________________*/
 #wrap2 {
-	/* overflow:hidden; */
-	/* margin:2px 0 0 0;  */
 	position:relative;
 	width:1062px;
 	height:570px;
-/* 	margin:0;
-	padding:0; */
 }
-/* #sht1, #sht2, #sht3{
-	float:left;
-} */
 #sht1{
 	overflow:hidden; 
 	width:1062px;
 	height:570px;
-	/*  margin:0 0 0 75px; */
 	position:absolute; 
 }
 #sht2{
 	overflow:hidden;
 	width:1062px;
 	height:570px;
-	/*  margin:0 0 0 75px; */
 	position:relative; 
 	display:none;
 }
-
-
 .shtuka {
 	position:relative;
 }
@@ -234,13 +211,10 @@ h1{
 	margin:-550px 0 0 530px;
 }
 .qubik > span {
-/* 	color:#FECE00; */
-/* 	color:#027ed0; */
 	color:#DDAF00; 
 }
 .qubik1{
 	position:absolute;
-	/* padding:0 6px 0 0; */
 	margin:-189px 0 0 230px;
 }
 .qubik1 li{
@@ -253,7 +227,6 @@ h1{
 }
 .qubik2{
 	position:absolute;
-	/* padding:0 6px 0 0; */
 	margin:-157px 0 0 230px;
 }
 .qubik2 li {
@@ -273,20 +246,16 @@ h1{
 	border-spacing:45px 12px;
 	width:700px;
 	height:72px;
-	/* width:100%; */
 }
 .tab1{
 	color:#000;
 	font:0.7em helveticaneuecyrbold;
-	/* font-weight:bold; */
-	/* margin:0 40px; */
 }
 #table2 {
 	margin:10px 0 0 300px;
 	border-spacing:15px 0px;
 	position:relative;
 	vertical-align:middle;
-	/* width:390px; */
 	width:65%;
 }
 .tab2{
@@ -294,31 +263,25 @@ h1{
 	font:0.8em helveticaneuecyrbold;
 	line-height:0.9em;
 	width:50px;
-	/* font-weight:bold; */
-	/* margin:0 40px; */
 }
 .cifra {
 	color:#000;
 	font:3em helveticaneuecyrbold;
-	/* font-weight:bold; */
 	float:left;
 	margin: -10px 7px 0 0;
 }
 .cifra3 {
 	color:#000;
 	font:3em helveticaneuecyrbold;
-	/* font-weight:bold; */
 	float:left;
 	margin: -4px 6px 0 0;
 }
-
 /* ___________ /table________________ */
 .text2_img {
 	margin:4px 0 0 225px;
 	width:666px;
 	height:53px;
 }
-
 #strelka_l {
     position: absolute;
     margin-top: -290px;
@@ -327,7 +290,6 @@ h1{
 	height:52px;
 	cursor:pointer;
 }
-
 #strelka_r {
 	position: absolute;
 	margin-top: -290px;
@@ -336,10 +298,7 @@ h1{
 	height:52px;
 	cursor:pointer;
 }
-
-
 /*_____TEHNO____________________________________________________________________________________________________*/
-
 #tehno {
 	position:relative;
 	overflow:hidden;
@@ -355,7 +314,6 @@ h1{
     background: -o-linear-gradient(bottom left, #027ed0, #32b5f7); /* Opera 11.10+ */
     background: -ms-linear-gradient(bottom left, #027ed0, #32b5f7); /* IE10 */
     background: linear-gradient(bottom left, #027ed0, #32b5f7); /* CSS3 */ 
-	
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027ed0', 
             endColorstr='#32b5f7',GradientType=1);
 }
@@ -365,7 +323,6 @@ h1{
 	background: url(../img/logo_w.svg) no-repeat;
 	width:91px;
 	height:78px;
-	
 }
 .radio {
 	float:left;
@@ -390,7 +347,6 @@ h1{
 .radio_text2{
 	margin: 345px 0 0 203px;
 }
-
 #tehno  .top_m {
 	position:absolute;
 	margin-top:575px;
@@ -405,9 +361,7 @@ h1{
 	width:33px;
 	height:27px;
 }
-
 /*_____MARKETING____________________________________________________________________________________________________*/
-
 #marketing {
 	position:relative;
 	overflow:hidden;
@@ -449,7 +403,6 @@ h1{
 	width:33px;
 	height:27px;
 }
-
 .sfera {
 	background: url(../img/sfera.png) no-repeat;
 	width:68px;
@@ -457,7 +410,6 @@ h1{
 	margin-left:140px;
 	margin-top:29px;
 }
-
 #soty {
 	background: url(../img/soty.png) no-repeat;
 	width:728px;
@@ -465,13 +417,10 @@ h1{
 	margin-top:30px;
 	margin-left:150px;
 }
-
 /*_____KOMANDA____________________________________________________________________________________________________*/
-
 #komanda {
 	position:absolute;
 	overflow:hidden;
-	/* padding-bottom:-590px; */
  	width:100%;
 	min-height:601px;
 	height:100%;
@@ -547,14 +496,12 @@ h1{
 	margin-left:140px;
 	margin-top:45px;
 } 
-
 #komanda2 {
 	overflow:hidden;
 	position:relative; 
  	width:100%;
 	min-height:601px; 
 	height:100%;
-
 		
 	background: -moz-linear-gradient(bottom left, #027ed0, #32b5f7); /* Firefox 3.6+ */
     /* Chrome 1-9, Safari 4-5 */
@@ -578,18 +525,15 @@ h1{
 	margin-left:140px;
 	margin-top:50px;
 } 
-
 #strelka_l2 {
     position: absolute;
     margin-top: 275px;
-/* 	margin-top:-50%; */
     margin-left: 50px;
 	width:28px;
 	height:52px;
 	cursor:pointer;
 	z-index:5;
 }
-
 #strelka_r2 {
 	position: absolute;
 	margin-top: 275px;
@@ -614,10 +558,7 @@ h1{
 	width:100%;
 	min-height:601px;
 }
-
-
 /*_____FOOTER____________________________________________________________________________________________________*/
-
 #footer {
 	position:relative;
 	overflow:hidden;
@@ -625,9 +566,7 @@ h1{
 	width:100%;
 	height:275px;
 	background-color:#00121c;
-	/* margin: 165px 0 0 0; */
 }
-
 .top a{
 	color:#fff;
 	font:1em HelveticaNeueCyrThin;
@@ -671,23 +610,3 @@ h1{
 	font:0.73em HelveticaNeueCyrRoman;
 	margin:-20px 0 0 230px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
