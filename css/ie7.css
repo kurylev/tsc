@@ -18,10 +18,10 @@
 	margin: -280px 0 0 833px;
 }
 .radio_text{
-	margin: 160px 0 0 -365px;
+	margin: 160px 0 0 -500px;
 }
 .radio_text2{
-	margin: 385px 0 0 -365px;
+	margin: 385px 0 0 -500px;
 }
 #marketing>.radio_text{
 	margin: 0 0 0 205px;
@@ -50,19 +50,34 @@
 	margin-left:200px;
 }
 .info {
-	margin-left:-155px;
+	margin-left:-500px;
 }
 .tel {
-	margin-left:100px;	
+	margin-left:-250px;	
 }
 .adres {
-	margin-left:100px;	
+	margin-left:-250px;	
 }
 .line {
 	margin-top:180px;
-	margin-left:-155px;
+	margin-left:-500px;
 	height:2px;
 	color:#fff;
 }
-
-/*тест*/
+.sfera {
+	background: url(../img/sfera.png) no-repeat;
+	width:68px;
+	height:95px;
+	margin-left:140px;
+	margin-top:29px;
+}
+#soty {
+	background: url(../img/soty.png) no-repeat;
+	width:728px;
+	height:486px;
+	margin-top:35px;
+	margin-left:150px;
+}
+#komanda .radio_text {
+	margin-left:203px;
+}
