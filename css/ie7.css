@@ -64,20 +64,20 @@
 	height:2px;
 	color:#fff;
 }
-.sfera {
-	background: url(../img/sfera.png) no-repeat;
+.sphera {
+	background: url(../img/sphera.png) no-repeat;
 	width:68px;
 	height:95px;
 	margin-left:140px;
 	margin-top:29px;
 }
-#soty {
-	background: url(../img/soty.png) no-repeat;
+#comb {
+	background: url(../img/comb.png) no-repeat;
 	width:728px;
 	height:486px;
 	margin-top:35px;
 	margin-left:150px;
 }
-#komanda .radio_text {
+#comand .radio_text {
 	margin-left:203px;
 }

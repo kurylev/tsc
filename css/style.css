@@ -277,12 +277,12 @@ h1{
 	margin: -4px 6px 0 0;
 }
 /* ___________ /table________________ */
-.text2_img {
+.text_img {
 	margin:4px 0 0 225px;
 	width:666px;
 	height:53px;
 }
-#strelka_l {
+#arrow_left {
     position: absolute;
     margin-top: -290px;
     margin-left: 50px;
@@ -290,7 +290,7 @@ h1{
 	height:52px;
 	cursor:pointer;
 }
-#strelka_r {
+#arrow_right {
 	position: absolute;
 	margin-top: -290px;
 	margin-left: 1020px;
@@ -381,7 +381,7 @@ h1{
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#099cfe',
             endColorstr='#6ec1f7',GradientType=1);
 }
-#marketing >.radio, #komanda >.radio{
+#marketing >.radio, #comand >.radio{
 	margin-left:201px;
 	float:none;
 	margin-bottom:13px;
@@ -403,22 +403,22 @@ h1{
 	width:33px;
 	height:27px;
 }
-.sfera {
-	background: url(../img/sfera.png) no-repeat;
+.sphera {
+	background: url(../img/sphera.png) no-repeat;
 	width:68px;
 	height:95px;
 	margin-left:140px;
 	margin-top:29px;
 }
-#soty {
-	background: url(../img/soty.png) no-repeat;
+#comb {
+	background: url(../img/comb.png) no-repeat;
 	width:728px;
 	height:486px;
 	margin-top:30px;
 	margin-left:150px;
 }
 /*_____KOMANDA____________________________________________________________________________________________________*/
-#komanda {
+#comand {
 	position:absolute;
 	overflow:hidden;
  	width:100%;
@@ -438,7 +438,7 @@ h1{
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027ed0', 
             endColorstr='#32b5f7',GradientType=1);
 }
-#komanda>.radio_text{
+#comand>.radio_text{
 	margin-top:140px;
 }
 .name {
@@ -451,7 +451,7 @@ h1{
 	font:1.2em HelveticaNeueCyrThin;
 	margin:0 0 30px 201px;
 }
-#komanda .end {
+#comand .end {
 	margin-bottom:80px;
 }
 .vakansii {
@@ -482,21 +482,21 @@ h1{
 	width:26px;
 	height:17px;
 }
-#komanda .down_m {
+#comand .down_m {
 	position:absolute;
 	margin-top:-553px;
 	margin-left:1015px;
 	width:33px;
 	height:27px;
 }
-#komanda .star{
+#comand .star{
 	background: url(../img/star.png) no-repeat;
 	width:60px;
 	height:60px;
 	margin-left:140px;
 	margin-top:45px;
 } 
-#komanda2 {
+#comand2 {
 	overflow:hidden;
 	position:relative; 
  	width:100%;
@@ -518,14 +518,14 @@ h1{
 
 	display:none;
 }
-#komanda .cel{
+#comand .cel{
 	background: url(../img/cel.png) no-repeat;
 	width:40px;
 	height:40px;
 	margin-left:140px;
 	margin-top:50px;
 } 
-#strelka_l2 {
+#arrow_left2 {
     position: absolute;
     margin-top: 265px;
     margin-left: 50px;
@@ -534,7 +534,7 @@ h1{
 	cursor:pointer;
 	z-index:5;
 }
-#strelka_r2 {
+#arrow_right2 {
 	position: absolute;
 	margin-top: 265px;
 	margin-left: 1020px;
@@ -543,7 +543,7 @@ h1{
 	cursor:pointer;
 	z-index:5;
 }
-#komanda2  .top_m {
+#comand2  .top_m {
 	position:absolute;
 	margin-top:30px;
 	margin-left:1023px;

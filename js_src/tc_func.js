@@ -2,12 +2,12 @@
  
  //ВВЕРХ-ВНИЗ_______________________________________________//
 
-var comanda = $("#wrap3");
-var raznost = 0;
-var heightKomanda = $("#wrap3").height();  
-console.log(heightKomanda);
+var comand = $("#wrap3");
+var diff = 0;
+var heightProjects = $("#wrap3").height();
+console.log(heightProjects);
 var heightFut = $("#footer").height();
-//var raznost = $(window).height() - heightKomanda - heightFut; console.log(raznost);
+//var diff = $(window).height() - heightProjects - heightFut; console.log(diff);
 	
 	
 $("#t").click(function(){
@@ -16,10 +16,10 @@ $("#t").click(function(){
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
 	
-	var heightProekty = $("#header").height();
+	var heightProjects = $("#header").height();
 	var heightHeader = $("#proekty").height();
-	var heightT = heightProekty + heightHeader;
-    $("body,html").animate({"scrollTop":+heightT},500);
+	var heightT = heightProjects + heightHeader;
+    $("body,html").animate({"scrollTop": + heightT},500);
 });
 
 $("#m").click(function(){
@@ -28,10 +28,10 @@ $("#m").click(function(){
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
 	
-	var heightProekty = $("#header").height();
+	var heightProjects = $("#header").height();
 	var heightHeader = $("#proekty").height();
 	var heightTehno = $("#tehno").height();
-	var heightM = heightProekty + heightHeader + heightTehno;
+	var heightM = heightProjects + heightHeader + heightTehno;
     $("body,html").animate({"scrollTop":+heightM},500);
 });
 
@@ -42,20 +42,20 @@ $("#k").click(function(){
     var height = $("body").height();
     var scrollTime = (height-curPos)/1.73;
 
-	raznost = $(window).height() - heightKomanda - heightFut;
+	diff = $(window).height() - diff - heightFut;
 	var heightMarketing = $("#marketing").height();
 	
-	var heightProekty = $("#header").height();
+	var diff = $("#header").height();
 	var heightHeader = $("#proekty").height();
 	var heightTehno = $("#tehno").height();
 	var heightMarketing = $("#marketing").height();
-	var heightK = heightProekty + heightHeader + heightTehno + heightMarketing;
+	var heightK = diff + heightHeader + heightTehno + heightMarketing;
 		
-	if (raznost > 0) {
-		heightKomanda = heightKomanda + raznost;
-		$("#wrap3").height(heightKomanda);
+	if (diff > 0) {
+		diff = diff + diff;
+		$("#wrap3").height(diff);
 		
-	//else {$("#komanda").css({'height':'601'});
+	//else {$("#comand").css({'height':'601'});
 	};
 	
     $("body,html").animate({"scrollTop":+heightK},500);
@@ -66,15 +66,13 @@ $("#c").click(function(){
     //Необходимо прокрутить в конец страницы
     var curPos = $(document).scrollTop();
     var height = $("body").height();
-    var scrollTime = (height-curPos)/1.73;
+    var scrollTime = (height - curPos)/1.73;
 	
 	
-	raznost = $(window).height() - heightKomanda - heightFut;
-	if (raznost > 0) {
-		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
-		$("#wrap3").height(heightKomanda);
-		
-	//else {$("#komanda").css({'height':'601'});
+	diff = $(window).height() - heightProjects - heightFut;
+	if (diff > 0) {
+		heightProjects = heightProjects + diff; //console.log(heightProjects);
+		$("#wrap3").height(heightProjects);
 	};
 		
     $("body,html").animate({scrollTop:$(document).height()},800);
@@ -85,9 +83,9 @@ $(".top_m").click(function(){
 	//Необходимо прокрутить в начало страницы
 	var curPos=$(document).scrollTop();
 	var scrollTime = curPos / 1.73;
-	if (raznost > 0) {
-		heightKomanda = heightKomanda - raznost;
-		$("#wrap3").css({'height': +heightKomanda});
+	if (diff > 0) {
+		heightProjects = heightProjects - diff;
+		$("#wrap3").css({'height': +heightProjects});
 	}
 
 	$("body,html").animate({"scrollTop": 0}, 500);
@@ -106,109 +104,81 @@ $("#down_t").click(function(){
 	$("#down_mrk").click(function(){
 	//Необходимо прокрутить в начало страницы
 	var curPos=$(document).scrollTop();
-	var scrollTime=curPos/1.73;
+	var scrollTime = curPos/1.73;
 	var docheight = $(document).height();
 	$("body,html").animate({"scrollTop":'1295'},500);
 });
 
 $("#down_k").click(function(){
 	//Необходимо прокрутить в начало страницы
-	var curPos=$(document).scrollTop();
-	var scrollTime=curPos/1.73;
+	var curPos = $(document).scrollTop();
+	var scrollTime = curPos/1.73;
 	var docheight = $(document).height();
 		
-	raznost = $(window).height() - heightKomanda - heightFut;
-	if (raznost > 0) {
-		heightKomanda = heightKomanda + raznost; //console.log(heightKomanda);
-		$("#wrap3").height(heightKomanda);
-			
-	//else {$("#komanda").css({'height':'601'});
+	diff = $(window).height() - heightProjects - heightFut;
+	if (diff > 0) {
+		heightProjects = heightProjects + diff; //console.log(heightProjects);
+		$("#wrap3").height(heightProjects);
 	};
-
 	$("body,html").animate({"scrollTop":'1910'},500);
 });
 
 
 //СЛАЙДЕР______________________________________//
 
-     $("#strelka_r").click(function () {
+     $("#arrow_right").click(function () {
 		if ($('#sht1').css('display') == 'block') {
 			$('#sht1').hide('slide', { direction: 'right' }, 500);                 // убрать
 			$('#sht2').show('slide', { direction: 'left' }, 500);
-			//$('#point').css('background-position','0 100%');
-			
 		}
 		else
 		if ($('#sht2').css('display') == 'block') {
 			$('#sht2').hide('slide', { direction: 'right' }, 500);                 // убрать
 			$('#sht1').show('slide', { direction: 'left' }, 500);
-			//$('#point').css('background-position','0 50%');
 		
-		}	
-		/* else
-		if ($('#sht3').css('display') == 'block') {
-			$('#sht3').hide();                 // убрать
-			$('#sht1').show('slide', { direction: 'left' }, 500);
-			//$('#point').css('background-position','0 0');
-		
-		} */
+		}
     });
 
-    $("#strelka_l").click(function () {
+    $("#arrow_left").click(function () {
         if ($('#sht1').css('display') == 'block') {
             $('#sht1').hide('slide', { direction: 'left' }, 500);                 // убрать
             $('#sht2').show('slide', { direction: 'right' }, 500);
-            //$('#point').css('background-position','0 100%');
-
         }
         else
         if ($('#sht2').css('display') == 'block') {
             $('#sht2').hide('slide', { direction: 'left' }, 500);                 // убрать
             $('#sht1').show('slide', { direction: 'right' }, 500);
-            //$('#point').css('background-position','0 50%');
-
         }
-        /* else
-        if ($('#sht2').css('display') == 'block') {
-            $('#sht2').hide();                 // убрать
-            $('#sht1').show('slide', { direction: 'right' }, 500);
-            //$('#point').css('background-position','0 0');
-
-        } */
     });
 	
 	
 //СЛАЙДЕР2______________________________________//
 
 
-     $("#strelka_r2").click(function () {
-		if ($('#komanda').css('display') == 'block') {
-			$('#komanda').hide('slide', { direction: 'right' }, 500);                 // убрать
-			$('#komanda2').show('slide', { direction: 'left' }, 500);
+     $("#arrow_right2").click(function () {
+		if ($('#comand').css('display') == 'block') {
+			$('#comand').hide('slide', { direction: 'right' }, 500);                 // убрать
+			$('#comand2').show('slide', { direction: 'left' }, 500);
 		}
 		else
-		if ($('#komanda2').css('display') == 'block') {
-			$('#komanda2').hide('slide', { direction: 'right' }, 500);                 // убрать
-			$('#komanda').show('slide', { direction: 'left' }, 500);
+		if ($('#comand2').css('display') == 'block') {
+			$('#comand2').hide('slide', { direction: 'right' }, 500);                 // убрать
+			$('#comand').show('slide', { direction: 'left' }, 500);
 		}	
 
     });
 
-    $("#strelka_l2").click(function () {
-        if ($('#komanda').css('display') == 'block') {
-            $('#komanda').hide('slide', { direction: 'left' }, 500);                 // убрать
-            $('#komanda2').show('slide', { direction: 'right' }, 500);
+    $("#arrow_left2").click(function () {
+        if ($('#comand').css('display') == 'block') {
+            $('#comand').hide('slide', { direction: 'left' }, 500);                 // убрать
+            $('#comand2').show('slide', { direction: 'right' }, 500);
         }
         else
-        if ($('#komanda2').css('display') == 'block') {
-            $('#komanda2').hide('slide', { direction: 'left' }, 500);                 // убрать
-            $('#komanda').show('slide', { direction: 'right' }, 500);
+        if ($('#comand2').css('display') == 'block') {
+            $('#comand2').hide('slide', { direction: 'left' }, 500);                 // убрать
+            $('#comand').show('slide', { direction: 'right' }, 500);
         }
      });
 
 
 });
-
-
-
-
