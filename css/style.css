@@ -95,7 +95,7 @@ h1{
 .logo {
 	float:left;
 	margin: 12px 0 0 20px;
-	background: url(../img/logo.svg) no-repeat;
+	background: url(../img/logo.png) no-repeat;
 	width:234px;
 	height:90px;
 }
@@ -320,7 +320,7 @@ h1{
 .logo_w{
 	float:left;
 	margin: 40px 0 0 102px;
-	background: url(../img/logo_w.svg) no-repeat;
+	background: url(../img/logo_w.png) no-repeat;
 	width:91px;
 	height:78px;
 }
