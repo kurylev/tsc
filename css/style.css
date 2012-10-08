@@ -184,12 +184,9 @@ h1{
 	margin:-455px 0 0 205px;
 }
 .cifry li {
-	margin:-5px 0;
+	margin:1px 0;
 	position:relative;
 	list-style-type:none;
-}
-.cifry a {
-	margin:0;
 	color:#000;
 	text-decoration:none;
 	font:0.75em HelveticaNeueCyrRoman;
