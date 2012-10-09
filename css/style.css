@@ -157,14 +157,14 @@ h1{
 }
 #sht1{
 	overflow:hidden; 
-	width:1062px;
-	height:570px;
+	width:974px;
+	height:568px;
 	position:absolute; 
 }
 #sht2{
 	overflow:hidden;
-	width:1062px;
-	height:570px;
+	width:974px;
+	height:568px;
 	position:relative; 
 	display:none;
 }
@@ -172,8 +172,8 @@ h1{
 	position:relative;
 }
 .first, .two_img, .three_img{
-	width:1065px;
-	height:570px;
+	width:974px;
+	height:568px;
 }
 #proekty {
 	position:relative;
