@@ -149,6 +149,10 @@ h1{
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4cce2', 
             endColorstr='#daeaf7',GradientType=1);
 }
+#Table_01 img{
+	display: block;
+}
+
 /*_____slider________________________________________________________________*/
 #wrap2 {
 	position:relative;
@@ -158,13 +162,13 @@ h1{
 #sht1{
 	overflow:hidden; 
 	width:974px;
-	height:568px;
+	height:570px;
 	position:absolute; 
 }
 #sht2{
 	overflow:hidden;
 	width:974px;
-	height:568px;
+	height:570px;
 	position:relative; 
 	display:none;
 }
@@ -173,7 +177,7 @@ h1{
 }
 .first, .two_img, .three_img{
 	width:974px;
-	height:568px;
+	height:570px;
 }
 #proekty {
 	position:relative;
